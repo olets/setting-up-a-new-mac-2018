@@ -30,7 +30,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 ### General
 - [1Password](https://1password.com/downloads/) - password management (*paid* service, free direct download)
-- [AntiRSI](https://itunes.apple.com/us/app/antirsi/id442007571?mt=12) - encourages you to take breaks to prevent repetitive stress injuries
+- [AntiRSI](https://itunes.apple.com/us/app/antirsi/id442007571?mt=12) - encourages you to take breaks to prevent repetitive stress injuries (*paid*)
 - [DropBox](https://www.dropbox.com/install#downloaded) - synced file management
 - [f.lux](https://justgetflux.com) - screen gammut adjuster
 - [GoogleDrive desktop app](https://www.google.com/drive/download/)
@@ -43,6 +43,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#toggl)
 
 ### Office
+- [Fantastical](https://flexibits.com/fantastical) - calendar (*paid*)
 - [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) - team chat
 
 ### Browser
