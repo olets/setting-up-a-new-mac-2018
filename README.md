@@ -259,7 +259,7 @@ set up automatic VPN on commonly used public networks (e.g. coffee shops, city w
 			tell application "Tunnelblick"				disconnect "US East"				get state of first configuration where name = "US East"				repeat until result = "EXITING"					delay 1					get state of first configuration where name = "US East"				end repeat			end tell
 			```	
 	- In ControlPlane's preferences: Under "Evidence Sources," add "Nearby WiFi Network"
-	- Under "Rules," choose "Add 'Nearby WiFi Network' Rule" > "WiFi SSID," select your target network, and say OK (note: you don't have to be within range of the network to set it up, but you do have to be within range of *some* wifi network. If you aren't within range, select any available network, say OK, and then double click the "Description" to edit the name). Set confidence to 100%
+	- Under "Rules," choose "Add 'Nearby WiFi Network' Rule" > "WiFi SSID," select your target network, and say OK (note: the first time you add a given network you must be connected to it). Set confidence to 100%
 	- Under "Actions," add two of "Application Actions" > "Open File or Application"
 		- For one, select your VPN connect script/application, the relevant Context, and "On arrival"
 		- For the other, select your VPN disconnect script/application, the same Context, and "On departure"
