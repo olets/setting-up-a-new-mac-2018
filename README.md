@@ -87,6 +87,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 ### Power user
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
+- [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid*)
 - [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows (*paid*)
 	- [my settings](#bettertouchtool)
