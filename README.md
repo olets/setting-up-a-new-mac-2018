@@ -79,6 +79,18 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [SourceTree](https://www.sourcetreeapp.com) - git and hg client
 - [Sublime Text](https://www.sublimetext.com/) - text editor
 	- [settings' syncing instructions](https://packagecontrol.io/docs/syncing)
+	- If you're new, watch this [tutorial video](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
+	- [Handy shortcuts](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
+	- My packages:
+		- `Craft-Hifi-Twig`
+		- `Emmet` - [Emmet](http://emmet.io/) (see also the [cheatsheet](http://docs.emmet.io/cheat-sheet/))
+		- `HTML-CSS-JS Prettify`
+		- `Origami` - flexible window tiling
+		- `Pretty JSON`
+		- `SublimeLinter`
+		- `Terminal`
+		- `WakaTime` - automatic time tracking
+	- I use the pre-installed "Monokai" theme, because it has best [LESS]() support I've seen
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
