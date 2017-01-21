@@ -100,6 +100,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [ImageAlpha](https://pngmini.com)
 - [SourceTree](https://www.sourcetreeapp.com) - git and hg client
 - [Sublime Text](https://www.sublimetext.com/) - text editor
+	- If you've already registered but lost your license, [get it emailed to you](https://www.sublimetext.com/retrieve_key)
 	- [settings' syncing instructions](https://packagecontrol.io/docs/syncing)
 	- If you're new, watch this [tutorial video](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
 	- [Handy shortcuts](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
@@ -112,7 +113,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		- `SublimeLinter`
 		- `Terminal`
 		- `WakaTime` - automatic time tracking
-	- I use the pre-installed "Monokai" theme, because it has best [LESS]() support I've seen
+	- I use the pre-installed "Monokai" theme, because it has the best [LESS]() support I've seen
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
