@@ -228,10 +228,10 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 <img src="resources/images/appearance.png" width="400px"/>
 
 - **desktop & screen saver**:  
-	- plain background
+	- plain background  
 <img src="resources/images/desktop.png" width="400px"/>  
 <img src="resources/images/screensavers.png" width="400px"/>  
-	- screensaver hotcorner
+	- screensaver hotcorner  
 <img src="resources/images/screensaver hotcorners.png" width="400px"/>  
 	- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
 		- final frontier:  
