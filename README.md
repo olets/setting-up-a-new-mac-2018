@@ -11,6 +11,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [Developer](#developer)
 	- [Power user](#power-user)
 	- [Fun](#fun)
+	- [Command line](#command-line)
 	- [Delete GarageBand](#delete-garageband)
 - [macOS setup](#macOS-setup)
 	- [Dock](#dock)
@@ -112,6 +113,22 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen
 
 ### Power user
+### Command Line
+
+- Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres
+
+
+- Make [Sublime Text's command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html) available:
+	
+	```
+	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+	```
+	
+- With `npm` installed, install [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates):
+
+	```
+	npm install -g npm-check-updates
+	```	
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
 - [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid*)
