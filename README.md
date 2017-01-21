@@ -8,10 +8,11 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [General](#general)
 	- [Office](#office)
 	- [Browser](#browser)
-	- [Developer](#developer)
-	- [Power user](#power-user)
-	- [Fun](#fun)
+	- [Developer apps](#developer)
 	- [Command line](#command-line)
+	- [Other essential apps](#other-essential-apps)
+	- [Non-essential apps](#non-essential-apps)
+	- [Music](#music)
 	- [Delete GarageBand](#delete-garageband)
 - [macOS setup](#macOS-setup)
 	- [Dock](#dock)
@@ -22,7 +23,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 ## Apps
 ### First: protection
 
-- [Sophos Anti-Virus "Classic"](https://community.sophos.com/products/free-antivirus-tools-for-desktops/f/sophos-anti-virus-for-mac-home-edition/80025/where-to-download-sophos-anti-virus-sav-home-edition-9-5-2-reffered-to-as-classic-now-that-there-also-is-a-cloud-edition) - anti-virus
+- [Sophos Anti-Virus "Classic"](https://community.sophos.com/products/free-antivirus-tools-for-desktops/f/sophos-anti-virus-for-mac-home-edition/80025/where-to-download-sophos-anti-virus-sav-home-edition-9-5-2-reffered-to-as-classic-now-that-there-also-is-a-cloud-edition) - anti-virus (supported legacy version which allows scanning specific directories. the new Sophos Home will only scan the entire computer)
 - [ClamXav](https://www.clamxav.com) - anti-virus and anti-malware (*paid*)
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html) - monitor camera and mic use (*paid*)
 - [Tunnelblick](https://tunnelblick.net) - OpenVPN configuration manager
@@ -44,7 +45,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#toggl)
 
 ### Office
-- [Fantastical](https://flexibits.com/fantastical) - calendar (*paid*)
+- [Fantastical](https://flexibits.com/fantastical) - calendar that does a number of things better than Apple's Calendar: panel with month view and a list upcoming events; Reminders integration; support multiple calendar sets, and auto-switching based on location; meaningful year view; list of all invites you haven't responded to (*paid, free trial*)
 - Gmail: I make a [Fluid](http://fluidapp.com/) desktop app for `https://mail.google.com`
 	- Fluid is free, but pay the $5 and the app will (automatically!) badge with the unread count and you'll have the option of a menubar app
 	- [Gmail icon](resources/Ncrow-Mega-Pack-1-Gmail.icns) (courtesy of ncrow - [website](http://www.iconarchive.com/show/mega-pack-1-icons-by-ncrow/Gmail-icon.html))
@@ -60,13 +61,19 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		- `Keyboard shortcuts on` ([shortcuts cheatsheet](https://shortcutworld.com/en/Gmail/mac/all))
 		- `Hide the people widget`
 - [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) - team chat
+	- turn on [All Unreads](https://get.slack.help/hc/en-us/articles/226410907)
+	- study up on the [keyboard shortcuts](https://get.slack.help/hc/en-us/articles/226410907)
 
 ### Browser
-- Safari
+- Safari  
+	Extensions:
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
-- [Firefox](https://www.mozilla.org/en-US/firefox/products/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/products/)  
+	Extensions:
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
-- [Chrome](https://www.google.com/chrome/)
+- [Chrome](https://www.google.com/chrome/)  
+	Extensions:
+			
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
 	- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en)
 	- [Adblock for Youtube](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en)
@@ -76,17 +83,17 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en)
 	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality
 	- [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
-	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en)
-	- [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) - search within tab titles
+	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
+	- [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) - search open tabs' title and urls
 	- [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en) - accessibility eval
 
-### Developer
-- [Atom](https://atom.io) - text editor
+### Developer apps
+- [Atom](https://atom.io) - text editor (I find Sublime Text is much faster and more don't-leave-the-home-row friendly, but Atom's popular enough that it's probably worth being familiar with)
 	- [settings' syncing instructions](https://pawelgrzybek.com/sync-atom-between-multiple-devices/)
-- [BBEdit](http://www.barebones.com/bbedit) (*paid*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with nice search interface
+- [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with nice search interface
 - [GitHub Desktop](https://desktop.github.com)
 - [MacDown](http://macdown.uranusjr.com) - markdown editor
-- [MAMP](https://www.mamp.info/en/mamp-pro/) - local server (*pro is paid*)
+- [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - local server (*paid, free trial*)
 - [SequelPro](http://www.sequelpro.com/)
 - Image optimizing tools:  
 	- [ImageOptim](https://imageoptim.com/mac)
@@ -112,7 +119,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#xcode)
 - [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen
 
-### Power user
 ### Command Line
 
 - Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres
@@ -129,29 +135,38 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	```
 	npm install -g npm-check-updates
 	```	
+	
+- To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
+
+	```
+	echo 'source ~/.bashrc' >> ~/.bash_profile
+	echo 'source ~/.profile' >> ~/.bash_profile
+	```
+
+### Other essential apps
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
 - [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
-- [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid*)
-- [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows (*paid*)
+- [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid, free trial*)
+- [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows when the cursor is over the window (don't have to grab the title bar to move, don't have to grab the edge to resize; *paid*)
 	- [my settings](#bettertouchtool)
 - [CapSee](http://www.threemagination.com/) - onscreen feedback for turning off and on capslock, in the style of the feedback for volume and brightness changes (iffy on sierra)
 - [CoconutBattery](http://www.coconut-flavour.com/coconutbattery/) - menubar battery meter
-	- [my settings](#coconutbattery)
-- [ControlPlane](https://www.controlplaneapp.com/) - context-dependent actions (e.g. open/close apps based on wifi network)
-	- [my settings](#controlplane)
-- [Day-O](http://www.shauninman.com/pendium/) - menubar clock replacement with dropdown calendar
+	- [my settings](#coconutbattery) - I show the time, state, and percentage
+- [ControlPlane](https://www.controlplaneapp.com/) - context-dependent actions
+	- [my settings](#controlplane) - I use this to save time by automatically opening my go-to work apps when I get to the office, but more importantly I use it to automatically connect to my VPN when on the public networks I frequent (e.g. my town wifi, the library, etc)
+- [Day-O](http://www.shauninman.com/pendium/) - menubar clock replacement with dropdown calendar (skip if using Fantastical)
 - [EasyFind](http://www.devontechnologies.com/products/freeware.html) - powerful search tool
 - [InsomniaX](http://semaja2.net/projects/insomniaxinfo/) - disable sleep, including lid sleep
 - [Isolator](https://www.willmore.eu/software/isolator/) - basic menubar-based screen shader
 	- [my settings](#isolator)
-- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid*)
+- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
 - [SlimBatteryMonitor](http://www.orange-carb.org/SBM/index.html) - menubar battery meter
-	- [my settings](#slimbatterymonitor)
+	- [my settings](#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
 	- [my settings](#spectacle)
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
 - [WiFi Signal](https://itunes.apple.com/us/app/wifi-signal/id525912054?mt=12) - menubar signal meter
-	- [my settings](#wifi-signal)
+	- [my settings](#wifi-signal) - I just show the strength as a number
 - Add spacers to the app side of the dock:  
 
 	```
@@ -169,7 +184,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Bee](http://www.neat.io/bee/index.html) - Desktop manager for GitHub issue (*paid, free trial*)
 - [Trailer](https://ptsochantaris.github.io/trailer/) - GitHub issue monitor for Mac (menubar), iOS, watchOS
 
-### Fun
+### Music
 - [LastFM scrobbler](http://www.last.fm/about/trackmymusic#desktop)
 - [Sonos Controller](http://www.sonos.com/en-us/controller-app)
 - [Spotify](https://www.spotify.com/us/download/other/)
@@ -209,31 +224,31 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 
 ### System
 
-- General (appearance: graphite; always show the scroll bars; click to jump to that spot):  
+- **General** (appearance: graphite; always show the scroll bars; click to jump to that spot):  
 <img src="resources/images/appearance.png" width="400px"/>
 
-- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
-
-- desktop & screen saver:  
+- **desktop & screen saver**:  
+	- plain background
 <img src="resources/images/desktop.png" width="400px"/>  
 <img src="resources/images/screensavers.png" width="400px"/>  
+	- screensaver hotcorner
 <img src="resources/images/screensaver hotcorners.png" width="400px"/>  
-	
-	- final frontier:  
-	<img src="resources/images/screensavers - final frontier.png" width="400px"/>
-	
-	- flying toasters:  
-	<img src="resources/images/screensavers - flying toasters.png" width="400px"/>
-	
-	- moire:  
-	<img src="resources/images/screensavers - moire 1.png" width="400px"/>
-	<img src="resources/images/screensavers - moire 2.png" width="400px"/>
-	
-	- mowing man:  
-	<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
-	
-	- starry night:  
-	<img src="resources/images/screensavers- starry night.png" width="400px"/>
+	- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
+		- final frontier:  
+		<img src="resources/images/screensavers - final frontier.png" width="400px"/>
+		
+		- flying toasters:  
+		<img src="resources/images/screensavers - flying toasters.png" width="400px"/>
+		
+		- moire:  
+		<img src="resources/images/screensavers - moire 1.png" width="400px"/>
+		<img src="resources/images/screensavers - moire 2.png" width="400px"/>
+		
+		- mowing man (*paid*):  
+		<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
+		
+		- starry night (*paid*):  
+		<img src="resources/images/screensavers- starry night.png" width="400px"/>
 
 - spotlight (turn off lookup):  
 <img src="resources/images/turn off spotlight lookup.png" width="400px"/>
