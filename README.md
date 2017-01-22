@@ -166,6 +166,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	
 - **zsh** shell + **oh-my-zsh**
 
+	(With thanks to [greypants](https://github.com/greypants) for getting me started.)
+
 	Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?id=5690235), and ["Comparison of command shells"](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
 
 	- [Docs for installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) (following the Homebrew instructions is recommended). As of this writing:
