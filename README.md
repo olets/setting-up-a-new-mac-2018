@@ -339,6 +339,8 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 - notifications:
 
 	<img src="resources/images/notifications.png" width="400px"/>
+	
+	And as you use the computer update the app preferences here, unchecking "Show in Notification Center" when possible so that Notifation Center doesn't fill up with unnecessary clutter.
 
 - displays:
 
