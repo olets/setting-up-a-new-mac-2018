@@ -49,17 +49,36 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - Gmail: I make a [Fluid](http://fluidapp.com/) desktop app for `https://mail.google.com`
 	- Fluid is free, but pay the $5 and the app will (automatically!) badge with the unread count and you'll have the option of a menubar app
 	- [Gmail icon](resources/Ncrow-Mega-Pack-1-Gmail.icns) (courtesy of ncrow - [website](http://www.iconarchive.com/show/mega-pack-1-icons-by-ncrow/Gmail-icon.html))
-	- turn on Gmail's desktop notifications:
+	- My preferences:  
+		- `gear > themes > soft gray`
+		- `gear > settings`
+			- `> general`
+				- `Show "Send & Archive" button in replay`
+				- `Enable Undo Send (30 seconds)`
+				- Add some additional `stars`
+				- `desktop notifications > new mail notifications on`
+				- `Keyboard shortcuts on` ([shortcuts cheatsheet](https://shortcutworld.com/en/Gmail/mac/all))
+				- `Hide the people widget`
+			- `> labs` I enable the following
+				- Google Calendar gadget
+				- Mark as Read Button
+				- Preview Pane
+				- Unread message icon (not relevant in a Fluid app, but nice in the browser)
+	- Filters for Google Calendar emails:
+		- For invitations and updates:
 
-		```
-		gear > settings > general > desktop notifications > new mail notifications on
-		```
-	- I also
-		- `Show "Send & Archive" button in replay`
-		- `Enable Undo Send (30 seconds)`
-		- Add some additional `stars`
-		- `Keyboard shortcuts on` ([shortcuts cheatsheet](https://shortcutworld.com/en/Gmail/mac/all))
-		- `Hide the people widget`
+			```
+			Subject: invitation
+			Has the words: *.ics
+			Has attachment √
+			```
+		- For cancelled events
+
+			```
+			Subject: canceled event
+			Has the words: *.ics
+			Has attachment √
+			```
 - [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) - team chat
 	- turn on [All Unreads](https://get.slack.help/hc/en-us/articles/226410907)
 	- study up on the [keyboard shortcuts](https://get.slack.help/hc/en-us/articles/226410907)
