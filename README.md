@@ -115,6 +115,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [MacDown](http://macdown.uranusjr.com) - markdown editor
 - [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - local server (*paid, free trial*)
 - [SequelPro](http://www.sequelpro.com/)
+	- The icon has a messy background that looks pretty bad in the application switcher. [Here's a fix](resources/sequel pro icon fix.icns)
 - Image optimizing tools:  
 	- [ImageOptim](https://imageoptim.com/mac)
 	- [ImageAlpha](https://pngmini.com)
