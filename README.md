@@ -487,4 +487,6 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 
 - ####XCode (make an alias of Simulator in the Applications folder):
 
+		ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications
+
 	<img src="resources/images/xcode ios simulator apps.png" width="400px"/>
