@@ -247,6 +247,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
 	- [my settings](#spectacle)
+- [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - access to hidden system preferences
+	- [my settings](#tinkertool)
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
 - [WiFi Signal](https://itunes.apple.com/us/app/wifi-signal/id525912054?mt=12) - menubar signal meter
 	- [my settings](#wifi-signal) - I just show the strength as a number
@@ -468,6 +470,13 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 - ####Spectacle:
 
 	<img src="resources/images/spectacle preferences.png" width="400px"/>
+
+- ####TinkerTool:
+
+	<img src="resources/images/tinkertool- 1 finder.png" width="400px"/>
+	<img src="resources/images/tinkertool- 2 dock.png" width="400px"/>
+	<img src="resources/images/tinkertool- 3 desktop.png" width="400px"/>
+	<img src="resources/images/tinkertool- 4 safari.png" width="400px"/>
 
 - ####Toggl:
 
