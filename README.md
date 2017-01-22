@@ -216,6 +216,12 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		add-zsh-hook chpwd load-nvmrc
 		load-nvmrc
 		```
+	
+- Optional: [autoenv](https://github.com/kennethreitz/autoenv) - when opening a directory, automatically run a `.env` script if one exists. For example, you might
+
+		echo 'nvm use' >> .env
+	
+	to automatically run `.nvmrc`
 
 		
 
