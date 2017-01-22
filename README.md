@@ -163,6 +163,57 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	echo 'source ~/.bashrc' >> ~/.bash_profile
 	echo 'source ~/.profile' >> ~/.bash_profile
 	```
+	
+- **zsh** shell + **oh-my-zsh**
+
+	Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?id=5690235), and ["Comparison of command shells"](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
+
+	- [Docs for installing ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH) (following the Homebrew instructions is recommended). As of this writing:
+
+		1. Install zsh with
+
+				brew install zsh zsh-completions
+		
+		1. Give your shell setup access to zsh
+
+				sudo nano /etc/shells
+		
+			and add `/usr/local/bin/zsh` to the end of the file, and write out.
+		1. Set zsh as the default shell
+
+				chsh -s /usr/local/bin/zsh
+				
+		1. Open a new terminal, and go through the zsh setup
+
+	- [Docs for installing oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+			
+	- If you've made any changes to your `~/.bashrc` file, copy over those lines to your `~/.zshrc` file after you switch
+
+	- Add this script to `~/.zshrc` to detect and autorun `.nvmrc` files
+
+		```
+		# Audodetect nvmrc files
+		autoload -U add-zsh-hook
+		load-nvmrc() {
+		  local node_version="$(nvm version)"
+		  local nvmrc_path="$(nvm_find_nvmrc)"
+		
+		  if [ -n "$nvmrc_path" ]; then
+		    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+		
+		    if [ "$nvmrc_node_version" != "N/A" ] && [ "$nvmrc_node_version" != "$node_version" ]; then
+		      nvm install
+		    fi
+		  elif [ "$node_version" != "$(nvm version default)" ]; then
+		    echo "Reverting to nvm default version"
+		    nvm use default
+		  fi
+		}
+		add-zsh-hook chpwd load-nvmrc
+		load-nvmrc
+		```
+
+		
 
 ### Other essential apps
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
