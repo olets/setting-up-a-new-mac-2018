@@ -41,7 +41,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#harvest)
 - [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs
 - [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video
-- [Spark](https://itunes.apple.com/us/app/spark-love-your-email-again/id1176895641?mt=12) - email client
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking
 	- [my settings](#toggl)
 
