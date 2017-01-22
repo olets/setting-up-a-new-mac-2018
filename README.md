@@ -39,8 +39,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [GoogleDrive desktop app](https://www.google.com/drive/download/)
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
 	- [my settings](#harvest)
-- [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs
-- [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video
+- [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs (thanks for the tip, [Viget Labs](https://github.com/vigetlabs)!)
+- [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video (thanks for the tip, [ten1seven](https://github.com/ten1seven)!)
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking
 	- [my settings](#toggl)
 
@@ -168,7 +168,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	
 - **zsh** shell + **oh-my-zsh**
 
-	(With thanks to [greypants](https://github.com/greypants) for getting me started.)
+	(Put together from tips written up by [greypants](https://github.com/greypants).)
 
 	Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?id=5690235), and ["Comparison of command shells"](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
 
