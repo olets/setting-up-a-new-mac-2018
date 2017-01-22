@@ -157,12 +157,14 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	npm install -g npm-check-updates
 	```	
 	
-- To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
+<!--
+-To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
 
 	```
 	echo 'source ~/.bashrc' >> ~/.bash_profile
 	echo 'source ~/.profile' >> ~/.bash_profile
 	```
+-->
 	
 - **zsh** shell + **oh-my-zsh**
 
