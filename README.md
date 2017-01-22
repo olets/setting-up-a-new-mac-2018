@@ -143,7 +143,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 ### Command Line
 
-- Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres
+- Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres: in a [separate doc](starting-command-line-tools.md) copied from documentation by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants)
 
 
 - Make [Sublime Text's command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html) available:
