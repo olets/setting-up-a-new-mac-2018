@@ -244,96 +244,127 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 
 ### System
 
-- **General** (appearance: graphite; always show the scroll bars; click to jump to that spot):  
-<img src="resources/images/appearance.png" width="400px"/>
+- **General** (appearance: graphite; always show the scroll bars; click to jump to that spot):
+
+	<img src="resources/images/appearance.png" width="400px"/>
 
 - **desktop & screen saver**:  
-	- plain background  
-<img src="resources/images/desktop.png" width="400px"/>  
-<img src="resources/images/screensavers.png" width="400px"/>  
-	- screensaver hotcorner  
-<img src="resources/images/screensaver hotcorners.png" width="400px"/>  
+	- plain background
+
+		<img src="resources/images/desktop.png" width="400px"/>
+		<img src="resources/images/screensavers.png" width="400px"/>
+		
+	- screensaver hotcorner
+
+		<img src="resources/images/screensaver hotcorners.png" width="400px"/>
+		
 	- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
-		- final frontier:  
-		<img src="resources/images/screensavers - final frontier.png" width="400px"/>
+		- final frontier:
+
+			<img src="resources/images/screensavers - final frontier.png" width="400px"/>
 		
-		- flying toasters:  
-		<img src="resources/images/screensavers - flying toasters.png" width="400px"/>
+		- flying toasters:
+
+			<img src="resources/images/screensavers - flying toasters.png" width="400px"/>
 		
-		- moire:  
-		<img src="resources/images/screensavers - moire 1.png" width="400px"/>
-		<img src="resources/images/screensavers - moire 2.png" width="400px"/>
+		- moire:
+
+			<img src="resources/images/screensavers - moire 1.png" width="400px"/>
+			<img src="resources/images/screensavers - moire 2.png" width="400px"/>
 		
-		- mowing man (*paid*):  
-		<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
+		- mowing man (*paid*):
 		
-		- starry night (*paid*):  
-		<img src="resources/images/screensavers- starry night.png" width="400px"/>
+			<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
+		
+		- starry night (*paid*):
 
-- spotlight (turn off lookup):  
-<img src="resources/images/turn off spotlight lookup.png" width="400px"/>
+			<img src="resources/images/screensavers- starry night.png" width="400px"/>
 
-- notifications:  
-<img src="resources/images/notifications.png" width="400px"/>
+- spotlight (turn off lookup):
 
-- displays:  
-<img src="resources/images/color.png" width="400px"/>
+	<img src="resources/images/turn off spotlight lookup.png" width="400px"/>
 
-- energy saver:  
-<img src="resources/images/battery.png" width="400px"/>
+- notifications:
 
-- keyboard:  
-<img src="resources/images/keyboard.png" width="400px"/>
-<img src="resources/images/keyboard- shortcuts.png" width="400px"/>
+	<img src="resources/images/notifications.png" width="400px"/>
 
-- trackpad:  
-<img src="resources/images/click.png" width="400px"/>
-<img src="resources/images/scroll.png" width="400px"/>
-<img src="resources/images/gestures.png" width="400px"/>
+- displays:
 
-- date & time (assumes Day-O is installed):  
-<img src="resources/images/time.png" width="400px"/>
-<img src="resources/images/clock + day-o.png" width="400px"/>
+	<img src="resources/images/color.png" width="400px"/>
 
-- accessibility:  
-<img src="resources/images/accessibility.png" width="400px"/>
+- energy saver:
 
-<img src="resources/images/internet accounts.png" width="400px"/>
+	<img src="resources/images/battery.png" width="400px"/>
+
+- keyboard:
+
+	<img src="resources/images/keyboard.png" width="400px"/>
+	<img src="resources/images/keyboard- shortcuts.png" width="400px"/>
+
+- trackpad:
+
+	<img src="resources/images/click.png" width="400px"/>
+	<img src="resources/images/scroll.png" width="400px"/>
+	<img src="resources/images/gestures.png" width="400px"/>
+
+- date & time (assumes Day-O is installed):
+
+	<img src="resources/images/time.png" width="400px"/>
+	<img src="resources/images/clock + day-o.png" width="400px"/>
+
+- accessibility:
+
+	<img src="resources/images/accessibility.png" width="400px"/>
+
+- internet accounts
+
+	<img src="resources/images/internet accounts.png" width="400px"/>
 
 ### Finder
 
-- prefs:  
-<img src="resources/images/finder prefs- general.png" width="400px"/>
-<img src="resources/images/finder prefs- sidebar.png" width="400px"/>
-<img src="resources/images/finder prefs- advanced.png" width="400px"/>  
+- prefs:
+
+	<img src="resources/images/finder prefs- general.png" width="400px"/>
+	<img src="resources/images/finder prefs- sidebar.png" width="400px"/>
+	<img src="resources/images/finder prefs- advanced.png" width="400px"/>  
 
 - [folder icons](resources/folder-icons-for-dock.zip):  
-<img src="resources/images/dock icons.png" width="150px"/>
 
-- view options:  
-<img src="resources/images/finder view option defaults.png" width="400px"/>
-<img src="resources/images/downloads folder view options.png" width="400px"/>
-<img src="resources/images/applications folder view options.png" width="400px"/>
+	<img src="resources/images/dock icons.png" width="150px"/>
 
-- toolbar and window bars:  
-<img src="resources/images/finder window.png" width="400px"/>
+- view options:
+
+	<img src="resources/images/finder view option defaults.png" width="400px"/>
+	<img src="resources/images/downloads folder view options.png" width="400px"/>
+	<img src="resources/images/applications folder view options.png" width="400px"/>
+
+- toolbar and window bars:
+
+	<img src="resources/images/finder window.png" width="400px"/>
 
 
 ---
 
 ## App preferences
 
-- ####BetterTouchTool:  
-<img src="resources/images/bettertouchtool- general.png" width="400px"/>
-<img src="resources/images/bettertouchtool- window snapping.png" width="400px"/>
-<img src="resources/images/bettertouchtool- windows.png" width="400px"/>
 
-- ####CoconutBattery:  
-<img src="resources/images/coconutbattery preferences.png" width="400px"/>
+	
+- ####BetterTouchTool:
 
-- ####ControlPlane:  
-set up automatic VPN on commonly used public networks (e.g. coffee shops, city wifi, etc)
+	<img src="resources/images/bettertouchtool- general.png" width="400px"/>
+	<img src="resources/images/bettertouchtool- window snapping.png" width="400px"/>
+	<img src="resources/images/bettertouchtool- windows.png" width="400px"/>
+
+- ####CoconutBattery:
+
+	<img src="resources/images/coconutbattery preferences.png" width="400px"/>
+
+- ####ControlPlane:
+
+	set up automatic VPN on commonly used public networks (e.g. coffee shops, city wifi, etc)
+
 	- in [Script Editor](file:///Applications/Utilities/Script Editor.app), create two new documents and save them as scripts or applications:
+
 		- The connect script:  
 		 
 			```
@@ -350,26 +381,33 @@ set up automatic VPN on commonly used public networks (e.g. coffee shops, city w
 		- For one, select your VPN connect script/application, the relevant Context, and "On arrival"
 		- For the other, select your VPN disconnect script/application, the same Context, and "On departure"
 
-- ####Harvest:  
-<img src="resources/images/harvest preferences.png" width="400px"/>
+- ####Harvest:
 
-- ####Isolator:  
-<img src="resources/images/isolator- general.png" width="400px"/>
-<img src="resources/images/isolator- menu icon.png" width="400px"/>
-<img src="resources/images/isolator- background windows.png" width="400px"/>
-<img src="resources/images/isolator- updates.png" width="400px"/>
+	<img src="resources/images/harvest preferences.png" width="400px"/>
 
-- ####SlimBatteryMonitor:  
-<img src="resources/images/slimbatterymonitor preferences.png" width="400px"/>
+- ####Isolator:
 
-- ####Spectacle:  
-<img src="resources/images/spectacle preferences.png" width="400px"/>
+	<img src="resources/images/isolator- general.png" width="400px"/>
+	<img src="resources/images/isolator- menu icon.png" width="400px"/>
+	<img src="resources/images/isolator- background windows.png" width="400px"/>
+	<img src="resources/images/isolator- updates.png" width="400px"/>
 
-- ####Toggl:  
-<img src="resources/images/toggl preferences.png" width="400px"/>
+- ####SlimBatteryMonitor:
 
-- ####Wifi Signal:  
-<img src="resources/images/wifi signal preferences.png" width="400px"/>
+	<img src="resources/images/slimbatterymonitor preferences.png" width="400px"/>
 
-- ####XCode (make an alias of Simulator in the Applications folder):  
-<img src="resources/images/xcode ios simulator apps.png" width="400px"/>
+- ####Spectacle:
+
+	<img src="resources/images/spectacle preferences.png" width="400px"/>
+
+- ####Toggl:
+
+	<img src="resources/images/toggl preferences.png" width="400px"/>
+
+- ####Wifi Signal:
+
+	<img src="resources/images/wifi signal preferences.png" width="400px"/>
+
+- ####XCode (make an alias of Simulator in the Applications folder):
+
+	<img src="resources/images/xcode ios simulator apps.png" width="400px"/>
