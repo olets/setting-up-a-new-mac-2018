@@ -229,6 +229,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
 - [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid, free trial*)
+	- [my menubar, after installing everything in this doc](#bartender)
 - [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows when the cursor is over the window (don't have to grab the title bar to move, don't have to grab the edge to resize; *paid*)
 	- [my settings](#bettertouchtool)
 - [CapSee](http://www.threemagination.com/) - onscreen feedback for turning off and on capslock, in the style of the feedback for volume and brightness changes (iffy on sierra)
@@ -418,6 +419,14 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 	A one-hour schedule 
 
 	<img src="resources/images/antirsi preferences.png" width="400px"/>
+
+- ####Bartender
+
+	This is my menubar
+	<img src="resources/images/bartender hidden.png" width="400px"/>
+	
+	And this is what's hidden by Bartender
+	<img src="resources/images/bartender revealed.png" width="400px"/>
 	
 - ####BetterTouchTool:
 
