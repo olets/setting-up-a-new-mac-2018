@@ -41,7 +41,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](#harvest)
 - [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs (thanks for the tip, [Viget Labs](https://github.com/vigetlabs)!)
 - [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video (thanks for the tip, [ten1seven](https://github.com/ten1seven)!)
-- [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking
+- [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking. Gives you a nice time sheet with each entry listed separate with its start time, end time, and duration. Nice web light-weight analytics too
 	- [my settings](#toggl)
 
 ### Office
