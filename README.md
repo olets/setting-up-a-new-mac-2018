@@ -252,17 +252,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
 - [WiFi Signal](https://itunes.apple.com/us/app/wifi-signal/id525912054?mt=12) - menubar signal meter
 	- [my settings](#wifi-signal) - I just show the strength as a number
-- Add spacers to the app side of the dock:  
-
-	```
-	defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	```
-	
-- Add spacers to the documents side of the dock:  
-	
-	```
-	defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	```
 	
 ### Non-essential apps
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
@@ -306,6 +295,27 @@ Trash these (these are the GarageBand files on a clean Sierra install. Verify th
 I take almost all of the defaults out the dock, make it smaller, and move it to the left
 
 <img src="resources/images/dock.png" width="400px"/>
+
+and change the double-click behavior
+
+<img src="resources/images/dock preferences.png" width="400px"/>
+
+and add spacers to the app side of the dock:  
+
+	```
+	defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
+	```
+	
+(you can also add spacers to the documents side of the dock… but why?)
+	
+	```
+	defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
+	```
+	
+and I make some Dock tweaks with TinkerTool ([see below](#tinkertool)). 	
+Final result:
+
+<img src="resources/images/dock final.png" width="50px"/>
 
 ### System
 
