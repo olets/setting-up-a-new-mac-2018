@@ -338,24 +338,24 @@ Final result:
 	- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
 		- final frontier:
 
-			<img src="resources/images/screensavers - final frontier.png" width="400px"/>
+			<img src="resources/images/screensavers - final frontier.png" width="200px"/>
 		
 		- flying toasters:
 
-			<img src="resources/images/screensavers - flying toasters.png" width="400px"/>
+			<img src="resources/images/screensavers - flying toasters.png" width="200px"/>
 		
 		- moire:
 
-			<img src="resources/images/screensavers - moire 1.png" width="400px"/>
-			<img src="resources/images/screensavers - moire 2.png" width="400px"/>
+			<img src="resources/images/screensavers - moire 1.png" width="200px"/>
+			<img src="resources/images/screensavers - moire 2.png" width="200px"/>
 		
 		- mowing man (*paid* - [registration link](http://en.infinisys.co.jp/download/index.shtml)):
 		
-			<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
+			<img src="resources/images/screensavers- mowing man.png" width="200px"/>  
 		
 		- starry night (*paid*):
 
-			<img src="resources/images/screensavers- starry night.png" width="400px"/>
+			<img src="resources/images/screensavers- starry night.png" width="200px"/>
 
 - spotlight (turn off lookup):
 
@@ -395,29 +395,35 @@ Final result:
 
 	<img src="resources/images/accessibility.png" width="400px"/>
 
-- internet accounts
-
-	<img src="resources/images/internet accounts.png" width="400px"/>
+- internet accounts: add your accounts!
 
 ### Finder
 
 - prefs:
 
-	<img src="resources/images/finder prefs- general.png" width="400px"/>
-	<img src="resources/images/finder prefs- sidebar.png" width="400px"/>
-	<img src="resources/images/finder prefs- advanced.png" width="400px"/>  
+	<img src="resources/images/finder prefs- general.png" width="200px"/>
+	<img src="resources/images/finder prefs- sidebar.png" width="200px"/>
+	<img src="resources/images/finder prefs- advanced.png" width="200px"/>  
 
 - [folder icons](resources/folder-icons-for-dock.zip):  
 
-	<img src="resources/images/dock icons.png" width="150px"/>
+	<img src="resources/images/dock icons.png" width="100px"/>
 
 - view options:
 
-	<img src="resources/images/finder view option defaults.png" width="400px"/>
-	<img src="resources/images/downloads folder view options.png" width="400px"/>
-	<img src="resources/images/applications folder view options.png" width="400px"/>
+	- Default:
 
-- toolbar and window bars:
+		<img src="resources/images/finder view option defaults.png" width="200px"/>
+	
+	- Downloads:
+
+		<img src="resources/images/downloads folder view options.png" width="200px"/>
+	
+	- Applications:
+
+		<img src="resources/images/applications folder view options.png" width="200px"/>
+
+- toolbar and window bars: show the path bar and status bar, and add to the toolbar apps I commonly want to drag and drop things onto
 
 	<img src="resources/images/finder window.png" width="400px"/>
 
