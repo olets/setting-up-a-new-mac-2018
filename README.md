@@ -96,11 +96,11 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
 	- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en)
 	- [Adblock for Youtube](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en)
-	- [Better History](https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb?hl=en)
+	- [Better History](https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb?hl=en) - history with deep search; browse history by date
 	- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en) - cross-browser testing
 	- [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik?hl=en) - extends the Chrome inspector
-	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en)
-	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality
+	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en) - export screenshots of an entire webpage, no matter how long it is
+	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality: repo size, file sizes, direct download links for every file, button to copy file contents
 	- [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
 	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
 	- [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) - search open tabs' title and urls
@@ -110,14 +110,14 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Atom](https://atom.io) - text editor (I find Sublime Text is much faster and more don't-leave-the-home-row friendly, but Atom's popular enough that it's probably worth being familiar with)
 	- [settings' syncing instructions](https://pawelgrzybek.com/sync-atom-between-multiple-devices/)
 - [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with nice search interface
-- [GitHub Desktop](https://desktop.github.com)
+- [GitHub Desktop](https://desktop.github.com) - I never actually use this, prefering SourceTree (linked below). On my home computer SourceTree periodically loses `push` permissions and the only fix is to open and close GitHub Desktop, so I keep it around. I think it also set me up with ssh keys on initial launch?
 - [MacDown](http://macdown.uranusjr.com) - markdown editor
-- [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - local server (*paid, free trial*)
+- [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - servers (*paid, free trial*)
 - [SequelPro](http://www.sequelpro.com/)
 	- The icon has a messy background that looks pretty bad in the application switcher. [Here's a fix](resources/sequel pro icon fix.icns)
 - Image optimizing tools:  
-	- [ImageOptim](https://imageoptim.com/mac)
-	- [ImageAlpha](https://pngmini.com)
+	- [ImageAlpha](https://pngmini.com) - optimize pngs that have transparency
+	- [ImageOptim](https://imageoptim.com/mac) - optimize images
 - [SourceTree](https://www.sourcetreeapp.com) - git and hg client
 - [Sublime Text](https://www.sublimetext.com/) - text editor
 	- If you've already registered but lost your license, [get it emailed to you](https://www.sublimetext.com/retrieve_key)
@@ -271,7 +271,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 ### Music
 - [LastFM scrobbler](http://www.last.fm/about/trackmymusic#desktop)
-- [Sonos Controller](http://www.sonos.com/en-us/controller-app)
+- [Sonos Controller](http://www.sonos.com/en-us/controller-app) for Sonos speakers
 - [Spotify](https://www.spotify.com/us/download/other/)
 
 ### Delete GarageBand
