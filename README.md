@@ -226,6 +226,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		
 
 ### Other essential apps
+- **Afloat**, via SIMBL - make windows float on top, and control their transparency
+	- [Installation instructions](http://www.perfectlyrandom.org/2016/10/23/always-on-top-in-macos-sierra/)
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
 - [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid, free trial*)
