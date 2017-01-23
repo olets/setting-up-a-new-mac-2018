@@ -337,7 +337,7 @@ I take almost all of the defaults out the dock, make it smaller, and move it to 
 			<img src="resources/images/screensavers - moire 1.png" width="400px"/>
 			<img src="resources/images/screensavers - moire 2.png" width="400px"/>
 		
-		- mowing man (*paid*):
+		- mowing man (*paid* - [registration link](http://en.infinisys.co.jp/download/index.shtml)):
 		
 			<img src="resources/images/screensavers- mowing man.png" width="400px"/>  
 		
