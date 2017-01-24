@@ -109,7 +109,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 ### Developer apps
 - [Atom](https://atom.io) - text editor (I find Sublime Text is much faster and more don't-leave-the-home-row friendly, but Atom's popular enough that it's probably worth being familiar with)
 	- [settings' syncing instructions](https://pawelgrzybek.com/sync-atom-between-multiple-devices/)
-- [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with nice search interface
+- [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with great search-and-replace and great multi-file search
+	- see also the [BareBones GREP cheatsheet](http://www.anybrowser.org/bbedit/grep.html)
 - [GitHub Desktop](https://desktop.github.com) - I never actually use this, prefering SourceTree (linked below). On my home computer SourceTree periodically loses `push` permissions and the only fix is to open and close GitHub Desktop, so I keep it around. I think it also set me up with ssh keys on initial launch?
 - [MacDown](http://macdown.uranusjr.com) - markdown editor
 - [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - servers (*paid, free trial*)
