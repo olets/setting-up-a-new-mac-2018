@@ -135,6 +135,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		- `Terminal`
 		- `WakaTime` - automatic time tracking
 	- I use the pre-installed "Monokai" theme, because it has the best [LESS]() support I've seen
+	- And I turn on scrolling past the end of documents: open `Preferences.sublime-settings -- User` with `command ,` and add `"scroll_past_end":true`
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
