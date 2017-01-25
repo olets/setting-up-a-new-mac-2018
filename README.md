@@ -118,7 +118,11 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- The icon has a messy background that looks pretty bad in the application switcher. [Here's a fix](resources/sequel pro icon fix.icns)
 - Image optimizing tools:  
 	- [ImageAlpha](https://pngmini.com) - optimize pngs that have transparency
-	- [ImageOptim](https://imageoptim.com/mac) - optimize images
+	- [ImageOptim](https://imageoptim.com/mac) - optimize imagesons folder):
+- **Simulator** - an iOS emulator (#facepalm@productnameteam) that comes with XCode (see below)
+	- If Spotlight isn't finding it, or just for general ease of access in Finder, make an alias in the Applications folder:
+
+			ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications
 - [SourceTree](https://www.sourcetreeapp.com) - git and hg client
 - [Sublime Text](https://www.sublimetext.com/) - text editor
 	- If you've already registered but lost your license, [get it emailed to you](https://www.sublimetext.com/retrieve_key)
@@ -514,9 +518,3 @@ Final result:
 - ####Wifi Signal:
 
 	<img src="resources/images/wifi signal preferences.png" width="400px"/>
-
-- ####XCode (make an alias of Simulator in the Applications folder):
-
-		ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications
-
-	<img src="resources/images/xcode ios simulator apps.png" width="400px"/>
