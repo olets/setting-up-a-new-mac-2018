@@ -252,6 +252,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Isolator](https://www.willmore.eu/software/isolator/) - basic menubar-based screen shader
 	- [my settings](#isolator)
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
+- [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
+	- [my plugins](#mysimbl) - I use Afloat, cDock, colorfulSidebar, and NotificationClear
 - [SlimBatteryMonitor](http://www.orange-carb.org/SBM/index.html) - menubar battery meter
 	- [my settings](#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
@@ -495,6 +497,43 @@ Final result:
 	<img src="resources/images/isolator- menu icon.png" width="400px"/>
 	<img src="resources/images/isolator- background windows.png" width="400px"/>
 	<img src="resources/images/isolator- updates.png" width="400px"/>
+	
+- ####MySIMBL:
+
+	Install plugins by clicking "Discover"
+	
+	<img src="resources/images/simbl- discover.png" width="400px"/>
+	
+	and go to Wolf's plugins
+	
+	<img src="resources/images/simbl- wolf.png" width="400px"/>
+	
+	I add **Afloat**, **cDock**, **colorfulSidebar**, **Notification Clear**.
+	
+	You may need to turn off System Integrity Protection (SIP) during installation. mySIMBL should tell you how to do that. It's:
+	
+	- Restart the computer while holding down Command R to boot into Recovery Mode
+	- Once the computer has started: From the Utilities menu select "Terminal"
+	- `csrutil disable; reboot`
+	- After installing SIMBL plugins, reenable SIP by booting into recovery mode and running `csrutil enable; reboot`
+
+	1. **Afloat** lets you keep windows on top of others and adjust individual windows' transparency.
+
+		<img src="resources/images/afloat.png" width="400px"/>
+	
+	1. **cDock** lets you theme the Dock. I use it to completely remove the Dock's background
+	
+		<kbd><img src="resources/images/cdock- prefs.png" width="200px"/></kbd>
+	
+		<img src="resources/images/cdock- dock.png" width="80px"/>
+	
+	1. **colorfulSidebar** colors the sidebar icons. You can customize the icons - here it is with the defaults:
+	
+		<img src="resources/images/colorfulsidebar.png" width="200px"/>
+		
+	1. **Notification Clear** adds a "clear" button to clear all Notification Center notifications in one click.
+	
+		<img src="resources/images/notificationclear.png" width="200px"/>
 
 - ####SlimBatteryMonitor:
 
