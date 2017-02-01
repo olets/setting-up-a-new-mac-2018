@@ -523,7 +523,9 @@ Final result:
 	
 	1. **cDock** lets you theme the Dock. I use it to completely remove the Dock's background
 	
-		<kbd><img src="resources/images/cdock- prefs.png" width="200px"/></kbd>
+		<kbd><img src="resources/images/cdock- prefs.png" width="400px"/></kbd>
+		
+		The result:
 	
 		<img src="resources/images/cdock- dock.png" width="80px"/>
 	
