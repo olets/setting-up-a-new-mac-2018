@@ -11,7 +11,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [Developer apps](#developer)
 	- [Command line](#command-line)
 	- [Other essential apps](#other-essential-apps)
-	- [Non-essential apps](#non-essential-apps)
+	- [Additional apps](#non-essential-apps)
 	- [Music](#music)
 	- [Delete GarageBand](#delete-garageband)
 - [macOS setup](#macOS-setup)
@@ -231,7 +231,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 		
 
-### Other essential apps
+### Additional apps
 - **Afloat**, via SIMBL - make windows float on top, and control their transparency
 	- [Installation instructions](http://www.perfectlyrandom.org/2016/10/23/always-on-top-in-macos-sierra/)
 	- I mostly use this for keeping an eye on command line activity, but it's also useful for comparing a site to a comp
@@ -254,6 +254,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
 - [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
 	- [my plugins](#mysimbl) - I use Afloat, cDock, colorfulSidebar, and NotificationClear
+- [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
 - [SlimBatteryMonitor](http://www.orange-carb.org/SBM/index.html) - menubar battery meter
 	- [my settings](#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
