@@ -150,6 +150,19 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 - Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres: in a [separate doc](starting-command-line-tools.md) copied from documentation by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants)
 
+	- after installing postgres, either set it up to automatically run:
+		```
+		brew services start postgresql
+		```
+		
+		or, if you just want to run it manually, add an alias an alias to the too-long-to-remember command to your shell profile:
+		
+		```
+		echo 'alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"' >> ~/.bash_profile
+		```
+		
+		(or install zsh, below, and add the alias to your zsh profile by replacing the end of that command with `>> ~/.bash_profile`)
+		
 <!--
 -To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
 
