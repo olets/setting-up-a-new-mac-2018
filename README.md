@@ -186,7 +186,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 			
 	- If you've made any changes to your `~/.bashrc` file, copy over those lines to your `~/.zshrc` file after you switch
 
-	- Add this script to `~/.zshrc` to detect and autorun `.nvmrc` files
+	- Add this script ([source](https://github.com/creationix/nvm#deeper-shell-integration)) to `~/.zshrc` to detect and autorun `.nvmrc` files
 
 		```
 		# Audodetect nvmrc files
