@@ -261,6 +261,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
 - [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
 	- [my plugins](#mysimbl) - I use Afloat, cDock, colorfulSidebar, and NotificationClear
+- [Noizio](http://noiz.io/) - ambient sounds with custom, shareable mixes
+	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
 - [SlimBatteryMonitor](http://www.orange-carb.org/SBM/index.html) - menubar battery meter
 	- [my settings](#slimbatterymonitor) - I just show the image
