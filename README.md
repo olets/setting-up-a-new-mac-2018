@@ -37,6 +37,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [DropBox](https://www.dropbox.com/install#downloaded) - synced file management
 - [f.lux](https://justgetflux.com) - screen gammut adjuster
 - [GoogleDrive desktop app](https://www.google.com/drive/download/)
+- [GIF Brewery](http://gifbrewery.com/) - full-featured gif creation (frame rate/frame duration, color optimization) with video->gif conversion and screen recording
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
 	- [my settings](#harvest)
 - [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs (thanks for the tip, [Viget Labs](https://github.com/vigetlabs)!)
