@@ -271,6 +271,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - access to hidden system preferences
 	- [my settings](#tinkertool)
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
+- [Vienna](https://github.com/ViennaRSS/vienna-rss) - free, open source RSS/Atom reader (useful for testing feeds during development)
 - [WiFi Signal](https://itunes.apple.com/us/app/wifi-signal/id525912054?mt=12) - menubar signal meter
 	- [my settings](#wifi-signal) - I just show the strength as a number
 	
