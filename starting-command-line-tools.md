@@ -39,6 +39,14 @@ https://github.com/creationix/nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
+Add
+
+```js
+export PATH="/usr/local/share/npm/bin:$PATH" # for homebrew'd node
+```
+
+to your `.bash_profile` or `.zshrc` etc
+
 ### Install Yarn
 
 https://yarnpkg.com/en/docs/install#mac-tab.
