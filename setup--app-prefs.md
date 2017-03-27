@@ -48,6 +48,38 @@
 		- For one, select your VPN connect script/application, the relevant Context, and "On arrival"
 		- For the other, select your VPN disconnect script/application, the same Context, and "On departure"
 
+- #### Gmail:
+
+	- `gear > themes > soft gray`
+	- `gear > settings`
+		- `> general`
+			- `Show "Send & Archive" button in replay`
+			- `Enable Undo Send (30 seconds)`
+			- Add some additional `stars`
+			- `desktop notifications > new mail notifications on`
+			- `Keyboard shortcuts on` ([shortcuts cheatsheet](https://shortcutworld.com/en/Gmail/mac/all))
+			- `Hide the people widget`
+		- `> labs` I enable the following
+			- Google Calendar gadget
+			- Mark as Read Button
+			- Preview Pane
+			- Unread message icon (not relevant in a Fluid app, but nice in the browser)
+	- Filters for Google Calendar emails:
+	- For invitations and updates:
+	
+		```
+		Subject: invitation
+		Has the words: *.ics
+		Has attachment √
+		```
+	- For cancelled events
+	
+		```
+		Subject: canceled event
+		Has the words: *.ics
+		Has attachment √
+		```
+
 - ####Harvest:
 
 	<img src="resources/images/harvest preferences.png" width="400px"/>
