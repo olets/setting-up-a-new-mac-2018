@@ -39,11 +39,11 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [GoogleDrive desktop app](https://www.google.com/drive/download/)
 - [GIF Brewery](http://gifbrewery.com/) - full-featured gif creation (frame rate/frame duration, color optimization) with video->gif conversion and screen recording
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
-	- [my settings](#harvest)
+	- [my settings](setup--app-prefs.md#harvest)
 - [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs (thanks for the tip, [Viget Labs](https://github.com/vigetlabs)!)
 - [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video (thanks for the tip, [ten1seven](https://github.com/ten1seven)!)
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking. Gives you a nice time sheet with each entry listed separate with its start time, end time, and duration. Nice web light-weight analytics too
-	- [my settings](#toggl)
+	- [my settings](setup--app-prefs.md#toggl)
 
 ### Office
 - [Fantastical](https://flexibits.com/fantastical) - calendar that does a number of things better than Apple's Calendar: panel with month view and a list upcoming events; Reminders integration; support multiple calendar sets, and auto-switching based on location; meaningful year view; list of all invites you haven't responded to (*paid, free trial*)
@@ -149,7 +149,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
-	- [my settings](#xcode)
+	- [my settings](setup--app-prefs.md#xcode)
 - [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen
 
 ### Additional apps
@@ -161,17 +161,17 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid, free trial*)
 	- [my menubar, after installing everything in this doc](#bartender)
 - [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows when the cursor is over the window (don't have to grab the title bar to move, don't have to grab the edge to resize; *paid*)
-	- [my settings](#bettertouchtool)
+	- [my settings](setup--app-prefs.md#bettertouchtool)
 - [CapSee](http://www.threemagination.com/) - onscreen feedback for turning off and on capslock, in the style of the feedback for volume and brightness changes (iffy on sierra)
 - [CoconutBattery](http://www.coconut-flavour.com/coconutbattery/) - menubar battery meter
-	- [my settings](#coconutbattery) - I show the time, state, and percentage
+	- [my settings](setup--app-prefs.md#coconutbattery) - I show the time, state, and percentage
 - [ControlPlane](https://www.controlplaneapp.com/) - context-dependent actions
-	- [my settings](#controlplane) - I use this to save time by automatically opening my go-to work apps when I get to the office, but more importantly I use it to automatically connect to my VPN when on the public networks I frequent (e.g. my town wifi, the library, etc)
+	- [my settings](setup--app-prefs.md#controlplane) - I use this to save time by automatically opening my go-to work apps when I get to the office, but more importantly I use it to automatically connect to my VPN when on the public networks I frequent (e.g. my town wifi, the library, etc)
 - [Day-O](http://www.shauninman.com/pendium/) - menubar clock replacement with dropdown calendar (skip if using Fantastical)
 - [EasyFind](http://www.devontechnologies.com/products/freeware.html) - powerful search tool
 - [InsomniaX](http://semaja2.net/projects/insomniaxinfo/) - disable sleep, including lid sleep
 - [Isolator](https://www.willmore.eu/software/isolator/) - basic menubar-based screen shader
-	- [my settings](#isolator)
+	- [my settings](setup--app-prefs.md#isolator)
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
 - [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
 	- [my plugins](#mysimbl) - I use Afloat, cDock, colorfulSidebar, and NotificationClear
@@ -179,15 +179,15 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
 - [SlimBatteryMonitor](http://www.orange-carb.org/SBM/index.html) - menubar battery meter
-	- [my settings](#slimbatterymonitor) - I just show the image
+	- [my settings](setup--app-prefs.md#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
-	- [my settings](#spectacle)
+	- [my settings](setup--app-prefs.md#spectacle)
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - access to hidden system preferences
-	- [my settings](#tinkertool)
+	- [my settings](setup--app-prefs.md#tinkertool)
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
 - [Vienna](https://github.com/ViennaRSS/vienna-rss) - free, open source RSS/Atom reader (useful for testing feeds during development)
 - [WiFi Signal](https://itunes.apple.com/us/app/wifi-signal/id525912054?mt=12) - menubar signal meter
-	- [my settings](#wifi-signal) - I just show the strength as a number
+	- [my settings](setup--app-prefs.md#wifi-signal) - I just show the strength as a number
 	
 ### Non-essential apps
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
