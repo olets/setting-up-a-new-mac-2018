@@ -107,13 +107,19 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- If you're new, watch this [tutorial video](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
 	- [Handy shortcuts](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
 	- My packages:
-		- `Craft-Hifi-Twig`
+		- `AdvancedNewFile` - create new files in the same location as the current document. also delete, copy, and rename files
+		- `Boxy Theme` - super configurable theme
+		- `BracketHighlighter` - configurable highlighting for code block opens and closes
+		- `Clickable URLS` - mouse equivalent of "Open URL"
+		- `Color Highlighter` - shows color values colors in markup and stylesheets
+		- `Craft-Twig` - syntax highlighting for twig documents, with Craft-specific support. I use this for all html files
 		- `Emmet` - [Emmet](http://emmet.io/) (see also the [cheatsheet](http://docs.emmet.io/cheat-sheet/))
-		- `HTML-CSS-JS Prettify`
+		- `HTML-CSS-JS Prettify` - beautifier running js-beautify
 		- `Origami` - flexible window tiling
-		- `Pretty JSON`
+		- `Pretty JSON` - JSON beautifier
+		- `Status Bar File Size` - shows the file size in the status bar
 		- `SublimeLinter`
-		- `Terminal`
+		- `A File Icon` - sidebar filetype-based 
 		- `WakaTime` - automatic time tracking
 	- I use the pre-installed "Monokai" theme, because it has the best [LESS]() support I've seen
 	- And I turn on scrolling past the end of documents: open `Preferences.sublime-settings -- User` with `command ,` and add `"scroll_past_end":true`
