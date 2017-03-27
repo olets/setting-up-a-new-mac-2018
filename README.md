@@ -88,9 +88,11 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - Safari  
 	Extensions:
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
+	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
 - [Firefox](https://www.mozilla.org/en-US/firefox/products/)  
 	Extensions:
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
+	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Greasemonkey - gives GitHub a dark theme
 - [Chrome](https://www.google.com/chrome/)  
 	Extensions:
 			
@@ -101,6 +103,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en) - cross-browser testing
 	- [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik?hl=en) - extends the Chrome inspector
 	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en) - export screenshots of an entire webpage, no matter how long it is
+	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
 	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality: repo size, file sizes, direct download links for every file, button to copy file contents
 	- [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
 	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
