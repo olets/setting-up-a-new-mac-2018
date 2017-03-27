@@ -1,4 +1,6 @@
-### Command Line
+# Setting up a new computer
+
+## Command Line
 
 - Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres: in a [separate doc](starting-command-line-tools.md) copied from documentation by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants)
 
@@ -15,6 +17,19 @@
 		
 		(or install zsh, below, and add the alias to your zsh profile by replacing the end of that command with `>> ~/.bash_profile`)
 		
+
+	- Make [Sublime Text's command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html) available:
+		
+		```
+		ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+		```
+		
+	- With `npm` installed, install [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates):
+	
+		```
+		npm install -g npm-check-updates
+		```
+
 <!--
 -To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
 
@@ -23,6 +38,8 @@
 	echo 'source ~/.profile' >> ~/.bash_profile
 	```
 -->
+
+## Terminal
 	
 - **zsh** shell + **oh-my-zsh**
 
@@ -72,18 +89,4 @@
 		add-zsh-hook chpwd load-nvmrc
 		load-nvmrc
 		```
-		
-	- 
-		
-
-- Make [Sublime Text's command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html) available:
 	
-	```
-	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-	```
-	
-- With `npm` installed, install [`npm-check-updates`](https://github.com/tjunnone/npm-check-updates):
-
-	```
-	npm install -g npm-check-updates
-	```

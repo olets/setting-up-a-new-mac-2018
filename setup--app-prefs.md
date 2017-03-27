@@ -1,3 +1,4 @@
+# Setting up a new computer
 
 ## App preferences
 

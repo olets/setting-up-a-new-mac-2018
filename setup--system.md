@@ -1,3 +1,5 @@
+# Setting up a new computer
+
 ## macOS setup
 
 ### Dock
