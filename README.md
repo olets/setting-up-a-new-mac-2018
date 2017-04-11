@@ -170,6 +170,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
 - [Bee](http://www.neat.io/bee/index.html) - Desktop manager for GitHub issue (*paid, free trial*)
 - [Trailer](https://ptsochantaris.github.io/trailer/) - GitHub issue monitor for Mac (menubar), iOS, watchOS
+- [Rocket](http://matthewpalmer.net/rocket/) - System-wide Slack-like emoji… `:open-mouth:` ➡️ 😮
 
 ### Music
 - [LastFM scrobbler](http://www.last.fm/about/trackmymusic#desktop)
