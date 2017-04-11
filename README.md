@@ -159,6 +159,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](setup--app-prefs.md#slimbatterymonitor) - I just show the image
 - [Spectacle](https://www.spectacleapp.com/) - window resizing
 	- [my settings](setup--app-prefs.md#spectacle)
+- [Trailer](https://ptsochantaris.github.io/trailer/) - GitHub issue monitor for Mac (menubar), iOS, watchOS
 - [TinkerTool](https://www.bresink.com/osx/TinkerTool.html) - access to hidden system preferences
 	- [my settings](setup--app-prefs.md#tinkertool)
 - [TotalSpaces](https://totalspaces.binaryage.com/) - grid spaces (*paid*)
@@ -169,7 +170,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 ### Non-essential apps
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
 - [Bee](http://www.neat.io/bee/index.html) - Desktop manager for GitHub issue (*paid, free trial*)
-- [Trailer](https://ptsochantaris.github.io/trailer/) - GitHub issue monitor for Mac (menubar), iOS, watchOS
 - [Rocket](http://matthewpalmer.net/rocket/) - System-wide Slack-like emoji… `:open-mouth:` ➡️ 😮
 
 ### Music
