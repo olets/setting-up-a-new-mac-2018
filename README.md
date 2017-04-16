@@ -3,6 +3,7 @@
 My setup for a fresh macOS Sierra machine, including my go-to front-end developer tools. This will use between 8 and 9gb of disk space.
 
 ### Contents
+
 - [macOS setup](setup--system.md) (separate doc)
 	- [Dock](setup--system.md#dock)
 	- [System](setup--system.md#system-preferences)
