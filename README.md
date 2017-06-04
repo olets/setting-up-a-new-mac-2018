@@ -51,6 +51,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- Fluid is free, but pay the $5 and the app will (automatically!) badge with the unread count and you'll have the option of a menubar app
 	- [Gmail icon](resources/Ncrow-Mega-Pack-1-Gmail.icns) (courtesy of ncrow - [website](http://www.iconarchive.com/show/mega-pack-1-icons-by-ncrow/Gmail-icon.html))
 	- [my settings](setup--app-prefs.md#gmail)
+- [Ship](https://www.realartists.com) - GitHub issues tracker/manager (*paid, free trial*)
 - [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) - team chat
 	- turn on [All Unreads](https://get.slack.help/hc/en-us/articles/226410907)
 	- study up on the [keyboard shortcuts](https://get.slack.help/hc/en-us/articles/226410907)
