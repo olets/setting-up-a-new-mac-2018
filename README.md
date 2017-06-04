@@ -41,7 +41,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [GIF Brewery](http://gifbrewery.com/) - full-featured gif creation (frame rate/frame duration, color optimization) with video->gif conversion and screen recording
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
 	- [my settings](setup--app-prefs.md#harvest)
-- [LICEcap](http://www.cockos.com/licecap/) - screenshot gifs (thanks for the tip, [Viget Labs](https://github.com/vigetlabs)!)
 - [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video (thanks for the tip, [ten1seven](https://github.com/ten1seven)!)
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking. Gives you a nice time sheet with each entry listed separate with its start time, end time, and duration. Nice web light-weight analytics too
 	- [my settings](setup--app-prefs.md#toggl)
@@ -140,7 +139,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my menubar, after installing everything in this doc](#bartender)
 - [BetterTouchTool](https://www.boastr.net/) - has all sorts of powers, notably for resizing and moving windows when the cursor is over the window (don't have to grab the title bar to move, don't have to grab the edge to resize; *paid*)
 	- [my settings](setup--app-prefs.md#bettertouchtool)
-- [CapSee](http://www.threemagination.com/) - onscreen feedback for turning off and on capslock, in the style of the feedback for volume and brightness changes (iffy on sierra)
 - [CoconutBattery](http://www.coconut-flavour.com/coconutbattery/) - menubar battery meter
 	- [my settings](setup--app-prefs.md#coconutbattery) - I show the time, state, and percentage
 - [ControlPlane](https://www.controlplaneapp.com/) - context-dependent actions
@@ -170,7 +168,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	
 ### Non-essential apps
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
-- [Bee](http://www.neat.io/bee/index.html) - Desktop manager for GitHub issue (*paid, free trial*)
 - [Rocket](http://matthewpalmer.net/rocket/) - System-wide Slack-like emoji… `:open-mouth:` ➡️ 😮
 
 ### Music
