@@ -1,6 +1,6 @@
 # New Computer Setup
 
-My setup for a fresh macOS Sierra machine, including my go-to front-end developer tools. This will use between 8 and 9gb of disk space.
+My setup for a fresh macOS Sierra machine, including my go-to front-end developer tools. This will use something under 10gb of disk space.
 
 ### Contents
 
@@ -24,7 +24,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 ## Apps
 ### First: protection
 
-- [Sophos Anti-Virus "Classic"](https://community.sophos.com/products/free-antivirus-tools-for-desktops/f/sophos-anti-virus-for-mac-home-edition/80025/where-to-download-sophos-anti-virus-sav-home-edition-9-5-2-reffered-to-as-classic-now-that-there-also-is-a-cloud-edition) - anti-virus (supported legacy version which allows scanning specific directories. the new Sophos Home will only scan the entire computer)
+- [Sophos Anti-Virus "Classic"](https://community.sophos.com/products/free-antivirus-tools-for-desktops/f/sophos-anti-virus-for-mac-home-edition/80025/where-to-download-sophos-anti-virus-sav-home-edition-9-5-2-reffered-to-as-classic-now-that-there-also-is-a-cloud-edition) - anti-virus (supported legacy version which allows scanning specific directories - the newer Sophos Home will only scan the entire computer)
 - [ClamXav](https://www.clamxav.com) - anti-virus and anti-malware (*paid*)
 - [Micro Snitch](https://www.obdev.at/products/microsnitch/index.html) - monitor camera and mic use (*paid*)
 - [Tunnelblick](https://tunnelblick.net) - OpenVPN configuration manager
@@ -127,8 +127,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
-	- [my settings](setup--app-prefs.md#xcode)
-- [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen
+- [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen (*paid, free trial*)
 
 ### Additional apps
 - **Afloat**, via SIMBL - make windows float on top, and control their transparency
