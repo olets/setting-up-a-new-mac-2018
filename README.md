@@ -174,6 +174,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 ### Music
 - [LastFM scrobbler](http://www.last.fm/about/trackmymusic#desktop)
 - [Sonos Controller](http://www.sonos.com/en-us/controller-app) for Sonos speakers
+	- and [airsonos](https://github.com/stephen/airsonos) utility for using Sonos speakers as Airplay speakers (i.e. for streaming a Mac's system sound, or streaming sound from an iOS app)
+		- as of this writing, requires the easy fix from [airsonos#316 (comment)](https://github.com/stephen/airsonos/issues/316#issuecomment-255663049) or, if that doesn't work, the more involved one from [airsonos#342 (comment)](https://github.com/stephen/airsonos/issues/342#issuecomment-295770479)
 - [Spotify](https://www.spotify.com/us/download/other/)
 
 ### Delete GarageBand
