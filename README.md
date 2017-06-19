@@ -56,26 +56,37 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- turn on [All Unreads](https://get.slack.help/hc/en-us/articles/226410907)
 	- study up on the [keyboard shortcuts](https://get.slack.help/hc/en-us/articles/226410907)
 
-### Browser
-- Safari  
-	Extensions:
+### Browsers
+- Safari
+- [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
+- [Chrome](https://www.google.com/chrome/)
+- [Chrome Canary](https://www.google.com/chrome/browser/canary.html?platform=mac)
+- [Firefox](https://www.mozilla.org/en-US/firefox/products/)
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+
+### Browser Extensions
+
+- Cross-browser
+
 	- [1password](https://agilebits.com/onepassword/extensions) - password management
-	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
-- [Firefox](https://www.mozilla.org/en-US/firefox/products/)  
-	Extensions:
-	- [1password](https://agilebits.com/onepassword/extensions) - password management
-	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Greasemonkey - gives GitHub a dark theme
-- [Chrome](https://www.google.com/chrome/)  
-	Extensions:
-			
-	- [1password](https://agilebits.com/onepassword/extensions) - password management
-	- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en)
+	- [AdBlock](https://getadblock.com)
+
+	- GitHub extensions
+		- [GitHub code folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding) - A userscript that adds code folding to GitHub files
+		- [GitHub custom navigation](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-custom-navigation) - A userscript that allows you to customize GitHub's main navigation bar
+		- [GitHub sort content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content) - A userscript that makes some lists & markdown tables sortable
+		- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
+		- [GitHub reveal header](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-reveal-header) - A userscript that reveals the header when hovering near the top of the screen
+		- [GitHub search autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete) - A userscript that adds autocomplete search filters to GitHub
+
+	
+- Chrome-specific
+
 	- [Adblock for Youtube](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en)
 	- [Better History](https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb?hl=en) - history with deep search; browse history by date
 	- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en) - cross-browser testing
 	- [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik?hl=en) - extends the Chrome inspector
 	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en) - export screenshots of an entire webpage, no matter how long it is
-	- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
 	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality: repo size, file sizes, direct download links for every file, button to copy file contents
 	- [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
 	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
@@ -83,6 +94,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [Slinky Elegant](https://chrome.google.com/webstore/detail/slinky-elegant/bmanlajnpdncmhfkiccmbgeocgbncfln) - 
 	- [Spaces](https://chrome.google.com/webstore/detail/spaces/cenkmofngpohdnkbjdpilgpmbiiljjim?hl=en) - name multitab windows, and quickly switch between them based on the name
 	- [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en) - accessibility eval
+
 
 ### Developer apps
 - [Atom](https://atom.io) - text editor (I find Sublime Text is much faster and more don't-leave-the-home-row friendly, but Atom's popular enough that it's probably worth being familiar with)
