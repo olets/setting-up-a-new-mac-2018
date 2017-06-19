@@ -142,9 +142,6 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen (*paid, free trial*)
 
 ### Additional apps
-- **Afloat**, via SIMBL - make windows float on top, and control their transparency
-	- [Installation instructions](http://www.perfectlyrandom.org/2016/10/23/always-on-top-in-macos-sierra/)
-	- I mostly use this for keeping an eye on command line activity, but it's also useful for comparing a site to a comp
 - [AppTrap](http://onnati.net/apptrap/) - extension for automatically deleting associated files when an app is deleted
 - [Auto Mute](http://auto-mute.com/download/) - mutes system on logout and shutdown, to prevent startup chime
 - [BarTender](https://www.macbartender.com/) - hide menubar apps (*paid, free trial*)
@@ -162,7 +159,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [my settings](setup--app-prefs.md#isolator)
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
 - [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
-	- [my plugins](#mysimbl) - I use Afloat, cDock, colorfulSidebar, and NotificationClear
+	- I use cDock, colorfulSidebar, darkNC, DoctorDark, and NotificationClear
+	- Afloat crashes my computer
 - [Noizio](http://noiz.io/) - ambient sounds with custom, shareable mixes
 	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
