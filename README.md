@@ -119,20 +119,33 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [settings' syncing instructions](https://packagecontrol.io/docs/syncing)
 	- If you're new, watch this [tutorial video](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
 	- [Handy shortcuts](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
-	- My packages:
-		- `AdvancedNewFile` - create new files in the same location as the current document. also delete, copy, and rename files
+	- Some packages I'd recommend to any front-end developer:
+		- `A File Icon` - excellent sidebar icons		- `AdvancedNewFile` - create new files in the same location as the current document. also delete, copy, and rename files
 		- `Boxy Theme` - super configurable theme
 		- `BracketHighlighter` - configurable highlighting for code block opens and closes
 		- `Clickable URLS` - mouse equivalent of "Open URL"
 		- `Color Highlighter` - shows color values colors in markup and stylesheets
+		- `Copy Relative Path`
 		- `Craft-Twig` - syntax highlighting for twig documents, with Craft-specific support. I use this for all html files
+		- `CSS Unminifier`
+		- `Dotfiles Syntax Highlighting`
 		- `Emmet` - [Emmet](http://emmet.io/) (see also the [cheatsheet](http://docs.emmet.io/cheat-sheet/))
-		- `HTML-CSS-JS Prettify` - beautifier running js-beautify
-		- `Origami` - flexible window tiling
-		- `Pretty JSON` - JSON beautifier
-		- `Status Bar File Size` - shows the file size in the status bar
-		- `SublimeLinter`
-		- `A File Icon` - sidebar filetype-based 
+		- `ERB Snippets`
+		- `Focus File on Sidebar` - open sidebar and focus on the current file
+		- `GitGutter` - show `+`/`-` Git diffs in the gutter
+		- `GitStatusBar` - compact git info in the statusbar
+		- `HTML-CSS-JS Prettify` - HTML/CSS/JavaScript prettifier running js-beautify
+		- `LESS` - LESS syntax highlighting
+		- `LoremIpsum` - generate lorem ipsum text
+		- `Open URL` - option-double-click on a path to open it in the browser
+		- `Origami` - ultraflexible window tiling
+		- `Pretty JSON` - Prettiffy/Query/Goto/Validate/Lint JSON
+		- `Status Bar File Size`
+		- `SublimeLinter` - interactive code linting
+		- `Sync View Scroll` - sync scrolling of multiple open files (plays nice with Origami!)
+		- `Syntax Highlighting for PostCSS`
+		- `Syntax Manager` - assigns syntax based on file extension (essential!), and lets you specify syntax-specific settings
+		- `TodoReview` - review todo (and other) comments
 		- `WakaTime` - automatic time tracking
 	- I use the pre-installed "Monokai" theme, because it has the best [LESS]() support I've seen
 	- And I turn on scrolling past the end of documents: open `Preferences.sublime-settings -- User` with `command ,` and add `"scroll_past_end":true`
