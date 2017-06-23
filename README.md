@@ -41,7 +41,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [GIF Brewery](http://gifbrewery.com/) - full-featured gif creation (frame rate/frame duration, color optimization) with video->gif conversion and screen recording
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
 	- [my settings](setup--app-prefs.md#harvest)
-- [MonoSnap](http://monosnap.com/welcome) - screenshot, screen video (thanks for the tip, [ten1seven](https://github.com/ten1seven)!)
+- [Mackup](https://github.com/lra/mackup) - backup your app settings, and sync them across multiple computers
+- [MonoSnap](http://monosnap.com/welcome) - take and leave notes on screenshots
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking. Gives you a nice time sheet with each entry listed separate with its start time, end time, and duration. Nice web light-weight analytics too
 	- [my settings](setup--app-prefs.md#toggl)
 
