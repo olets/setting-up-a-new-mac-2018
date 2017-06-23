@@ -121,7 +121,8 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- If you're new, watch this [tutorial video](https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2)
 	- [Handy shortcuts](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
 	- Some packages I'd recommend to any front-end developer:
-		- `A File Icon` - excellent sidebar icons		- `AdvancedNewFile` - create new files in the same location as the current document. also delete, copy, and rename files
+		- `A File Icon` - excellent sidebar icon
+		- `AdvancedNewFile` - create new files in the same location as the current document. also delete, copy, and rename files
 		- `Boxy Theme` - super configurable theme
 		- `BracketHighlighter` - configurable highlighting for code block opens and closes
 		- `Clickable URLS` - mouse equivalent of "Open URL"
