@@ -74,9 +74,13 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 	- GitHub extensions
 		- [GitHub code folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding) - A userscript that adds code folding to GitHub files
-		- [GitHub custom navigation](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-custom-navigation) - A userscript that allows you to customize GitHub's main navigation bar
+		- [GitHub custom navigation](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-custom-navigation) - A userscript that allows you to customize GitHub's main navigation bar. I link
+			- Request PR reviews (`https://github.com/pulls?q=review-requested:username`)
+			- Assigned issues (`https://github.com/issues/assigned`)
+			- My gists (`https://gist.github.com/username`)
 		- [GitHub sort content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content) - A userscript that makes some lists & markdown tables sortable
 		- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
+			- I use the color `#7AAACF`
 		- [GitHub reveal header](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-reveal-header) - A userscript that reveals the header when hovering near the top of the screen
 		- [GitHub search autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete) - A userscript that adds autocomplete search filters to GitHub
 
