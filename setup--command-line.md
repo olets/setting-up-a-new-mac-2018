@@ -125,11 +125,20 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
 	- **Theme options**
 		
 		```shell
-		SPACESHIP_GIT_UNCOMMITTED=' uncommited∆s'
-		SPACESHIP_GIT_UNSTAGED=' unstaged∆s'
-		SPACESHIP_GIT_UNTRACKED=' untracked∆s'
-		SPACESHIP_GIT_STASHED=' stashed∆s'
-		SPACESHIP_GIT_UNPULLED=' unpulled∆s'
-		SPACESHIP_GIT_UNPUSHED=' unpushed∆s'
-		SPACESHIP_TIME_SHOW=' true'
+		SPACESHIP_GIT_STATUS_INDEX_PREFIX=" [ "
+		SPACESHIP_GIT_STATUS_ADDED='added∆s '
+		SPACESHIP_GIT_STATUS_MODIFIED='unstaged∆s '
+		SPACESHIP_GIT_STATUS_UNTRACKED='untracked∆s '
+		SPACESHIP_GIT_STATUS_STASHED='stashed∆s '
+		SPACESHIP_GIT_STATUS_BEHIND='behind '
+		SPACESHIP_GIT_STATUS_AHEAD='ahead '
+		SPACESHIP_TIME_SHOW=true
+		SPACESHIP_PACKAGE_SHOW=false
+		SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
+		SPACESHIP_RUBY_PREFIX=" "
+		SPACESHIP_NODE_PREFIX=" "
+		SPACESHIP_RUBY_SYMBOL="💎  " # adds an extra space for kerning
+		SPACESHIP_EXEC_TIME_SHOW=false
+		SPACESHIP_BATTERY_DISCHARGING_SYMBOL="🔌 "
+		SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
 		```
