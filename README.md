@@ -154,8 +154,10 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		- `Syntax Manager` - assigns syntax based on file extension (essential!), and lets you specify syntax-specific settings
 		- `TodoReview` - review todo (and other) comments
 		- `WakaTime` - automatic time tracking
-	- I use the pre-installed "Monokai" theme, because it has the best [LESS]() support I've seen
-	- And I turn on scrolling past the end of documents: open `Preferences.sublime-settings -- User` with `command ,` and add `"scroll_past_end":true`
+	- I use the `One Dark` theme. For a long time before finding The One I use Sublime's pre-installed "Monokai" theme, because I liked its [LESS](http://lesscss.org/) coloring
+	- I use the `Inconsolata-dz` [Powerline font](https://github.com/powerline/fonts)
+	- And I turn on scrolling past the end of documents, turn off word wrap by default, increase default font size and line spacing, use a large solid caret, highlight the current line, and more. You can check out [my preferences file](Preferences.sublime-settings) (n.b: the "match_brackets" preferences are to allow BracketHighlighter to do the highlighting, and "theme" preferences are Boxy customization)
+
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
 	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
