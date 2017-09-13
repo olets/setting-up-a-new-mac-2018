@@ -138,6 +138,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 		- `Emmet` - [Emmet](http://emmet.io/) (see also the [cheatsheet](http://docs.emmet.io/cheat-sheet/))
 		- `ERB Snippets`
 		- `Focus File on Sidebar` - open sidebar and focus on the current file
+		- `Git Blame` - show a blame pop-up, with a button to quickly see the blame commit
 		- `GitGutter` - show `+`/`-` Git diffs in the gutter
 		- `GitStatusBar` - compact git info in the statusbar
 		- `HTML-CSS-JS Prettify` - HTML/CSS/JavaScript prettifier running js-beautify
