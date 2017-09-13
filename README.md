@@ -180,9 +180,14 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Isolator](https://www.willmore.eu/software/isolator/) - basic menubar-based screen shader
 	- [my settings](setup--app-prefs.md#isolator)
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - monitor network connections (*paid, free time-limited version*)
-- [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS)
-	- I use cDock, colorfulSidebar, darkNC, DoctorDark, and NotificationClear
-	- Afloat crashes my computer
+- [mySIMBL](https://github.com/w0lfschild/mySIMBL) - manager for SIMBL plugins (plugins to customize and tweak macOS). I use (install these via mySIMBL - links just for screenshots and documentation)
+	- [binventory](https://github.com/w0lfschild/binventory_SIMBL) - badge the Trash icon with the number of files in it
+	- [cDock](https://github.com/w0lfschild/cDock) - customize the Dock appearance
+	- [colorfulSidebar 9](https://github.com/w0lfschild/colorfulSidebar_9) - colored icons in the sidebar of Finder windows
+	- [darkNC](https://github.com/w0lfschild/darkNC) - dark theme for the Notification Center
+	- [NotificationClear](https://github.com/w0lfschild/NotificationClear) - adds a button to the Notification Center that clears all notifications
+	- SpotlightSIMBL - add plugins to Spotlight. Requires [Flashlight](https://github.com/nate-parrott/Flashlight)
+	- [Afloat](https://github.com/w0lfschild/Afloat) currently crashes my computer
 - [Noizio](http://noiz.io/) - ambient sounds with custom, shareable mixes
 	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
