@@ -206,6 +206,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	
 ### Non-essential apps
 - [Air Display](https://avatron.com/applications/air-display/) - use up to 4 other Macs and/or iOS devices as external monitors over WiFi or USB (*paid, free trial*)
+- [Desktop Curtain](https://manytricks.com/desktopcurtain/) - Hides desktop icons (*paid, free trial*)
 - [Rocket](http://matthewpalmer.net/rocket/) - System-wide Slack-like emoji… `:open-mouth:` ➡️ 😮
 
 ### Music
