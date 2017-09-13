@@ -188,6 +188,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [NotificationClear](https://github.com/w0lfschild/NotificationClear) - adds a button to the Notification Center that clears all notifications
 	- SpotlightSIMBL - add plugins to Spotlight. Requires [Flashlight](https://github.com/nate-parrott/Flashlight)
 	- [Afloat](https://github.com/w0lfschild/Afloat) currently crashes my computer
+- [Muzzle](https://muzzleapp.com/) - turns on Do Not Disturb when screensharingm
 - [Noizio](http://noiz.io/) - ambient sounds with custom, shareable mixes
 	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
