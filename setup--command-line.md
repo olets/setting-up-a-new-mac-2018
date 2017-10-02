@@ -203,3 +203,102 @@ Preferences > Profiles > (profile of choice) > Colors > Color Presets... > Impor
 
 For a font (`Preferences > Profiles > (profile of choice) > Colors`) I use **Incosolata-dz for Powerline**, installed via Homebrew (see above).
 
+## Git
+
+Extend `git`'s powers with [**hub**](https://hub.github.com/)
+
+```shell
+brew install hub
+```
+
+And make adjustments to your `~/.gitconfig`
+
+The following aliases are from [@thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles/blob/master/gitconfig)
+
+```dot
+[alias]
+  aa = add --all
+  ap = add --patch
+  branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes
+  ci = commit -v
+  co = checkout
+  pf = push --force-with-lease
+  st = status
+```
+
+My git aliases (n.b: all aliases go under a single `[alias]` section)
+
+```shell
+[alias]
+  # requires aliasing git to hub
+  pr = pull-request
+
+  # dotfiles-like
+  cob = checkout -b
+  pushforce = pf
+
+  # rebase
+  ri = rebase -i
+  ro = rebase --onto
+
+  # abort
+  cpa = cherry-pick --abort
+  ma = merge --abort
+  ra = rebase --abort
+
+  # continue
+  cpc = cherry-pick --continue
+  mc = merge --continue
+  rc = rebase --continue
+
+  # helpers
+  # the name of the checked out branch
+  current = symbolic-ref --short HEAD
+  # the path to the top of the repo
+  top-level = rev-parse --show-toplevel
+
+  # complex
+  # when pushing for the first time: set upstream and push
+  pushset = !git push --set-upstream origin $(git current)
+  # keeping track of git-index
+  assume-unchanged = !git ls-files -v $(git top-level) | grep '^[[:lower:]]'
+  skip-worktree = !git ls-files -v $(git top-level) | grep '^[sS]'
+```
+
+As with any time you use aliases, it's worthwhile to whatever steps will help you to not forget the full command. For simple shorthands like `rc` I'll mix it up with `rebase --continue`, to keep that muscle memory strong. (I don't do this for more complex things. I use `pushset` all the time.)
+
+I also use
+
+```shell
+[merge]
+  # override with --no-ff
+  ff = only
+  
+[commit]
+  template = ~/.gitmessage
+  
+[fetch]
+  prune = true
+  
+[rebase]
+  # override with --no-autosquash
+  autosquash = true
+```
+
+ (documentation:
+
+- [`merge --ff-only`](https://git-scm.com/docs/git-merge#git-merge---ff-only)
+- [`fetch --prune`](https://git-scm.com/docs/git-fetch#git-fetch---prune)
+- [`rebase --interactive --autosquash`](https://git-scm.com/docs/git-rebase#git-rebase---autosquash)
+
+)
+
+with a GitHub-friendly default commit message inspired by [thoughtbot's dotfiles'](https://github.com/thoughtbot/dotfiles/blob/master/gitmessage):
+
+```shell
+
+
+# 50-character subject line
+# 72-character wrapped longer description
+```
+
