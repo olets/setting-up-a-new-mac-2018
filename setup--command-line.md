@@ -144,6 +144,11 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
     alias man="gem man -ls"
     ```
 
+- [Add suggestions with **zsh-autosuggestions**](https://github.com/zsh-users/zsh-autosuggestions)
+
+- [Add additional completions with **zsh-completions**](https://github.com/zsh-users/zsh-completions)
+
+- [Add fuzzy searching with **fzf**](https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew)
 
 ### oh-my-zsh setup
 
