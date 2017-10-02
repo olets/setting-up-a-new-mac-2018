@@ -1,6 +1,6 @@
-# Setting up a new computer
+# Setting up a new Mac: app preferences
 
-## App preferences
+This file is part of the larger "Setting up a new Mac" project. [See the **main README**](README.md).
 
 - ####antiRSI:
 

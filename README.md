@@ -1,4 +1,4 @@
-# New Computer Setup
+# Setting up a new Mac
 
 My setup for a fresh macOS Sierra machine, including my go-to front-end developer tools. This will use something under 10gb of disk space.
 

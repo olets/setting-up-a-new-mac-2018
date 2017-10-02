@@ -1,6 +1,6 @@
-# Setting up a new computer
+# Setting up a new Mac: the command line
 
-[TOC]
+This file is part of the larger "Setting up a new Mac" project. [See the **main README**](README.md).
 
 - First, follow the [documentation](starting-command-line-tools.md) by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants) to set up Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres,
 
