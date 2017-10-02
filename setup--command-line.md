@@ -164,26 +164,29 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
 
 - **Theme**
 
-  [Spaceship](https://github.com/denysdovhan/spaceship-zsh-theme)
+  I use [**Spaceship**](https://github.com/denysdovhan/spaceship-zsh-theme)
+
+  - Note that Spaceship requires a font that's been patched for Powerline. View the fonts in [their repo](https://github.com/powerline/fonts), and install via Homebrew (see above for instructions on tapping the fonts cask)
 
 
-  - **Theme options**
+  - **Spaceship options**
 
-    ```shell
-    SPACESHIP_GIT_STATUS_INDEX_PREFIX=" [ "
-    SPACESHIP_GIT_STATUS_ADDED='added∆s '
-    SPACESHIP_GIT_STATUS_MODIFIED='unstaged∆s '
-    SPACESHIP_GIT_STATUS_UNTRACKED='untracked∆s '
-    SPACESHIP_GIT_STATUS_STASHED='stashed∆s '
-    SPACESHIP_GIT_STATUS_BEHIND='behind '
-    SPACESHIP_GIT_STATUS_AHEAD='ahead '
-    SPACESHIP_TIME_SHOW=true
-    SPACESHIP_PACKAGE_SHOW=false
-    SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
-    SPACESHIP_RUBY_PREFIX=" "
-    SPACESHIP_NODE_PREFIX=" "
-    SPACESHIP_RUBY_SYMBOL="💎  " # adds an extra space for kerning
-    SPACESHIP_EXEC_TIME_SHOW=false
-    SPACESHIP_BATTERY_DISCHARGING_SYMBOL="🔌 "
-    SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
-    ```
+      ```shell
+      SPACESHIP_GIT_STATUS_INDEX_PREFIX=" [ "
+      SPACESHIP_GIT_STATUS_ADDED='added∆s '
+      SPACESHIP_GIT_STATUS_MODIFIED='unstaged∆s '
+      SPACESHIP_GIT_STATUS_UNTRACKED='untracked∆s '
+      SPACESHIP_GIT_STATUS_STASHED='stashed∆s '
+      SPACESHIP_GIT_STATUS_BEHIND='behind '
+      SPACESHIP_GIT_STATUS_AHEAD='ahead '
+      SPACESHIP_TIME_SHOW=true
+      SPACESHIP_PACKAGE_SHOW=false
+      SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
+      SPACESHIP_RUBY_PREFIX=" "
+      SPACESHIP_NODE_PREFIX=" "
+      SPACESHIP_RUBY_SYMBOL="💎  " # adds an extra space for kerning
+      SPACESHIP_EXEC_TIME_SHOW=false
+      SPACESHIP_BATTERY_DISCHARGING_SYMBOL="🔌 "
+      SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
+      ```
+
