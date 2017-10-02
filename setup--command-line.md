@@ -68,6 +68,10 @@ Preferences > Profiles > (profile of choice) > Colors > Color Presets... > Impor
 
 For a font (`Preferences > Profiles > (profile of choice) > Colors`) I use **Incosolata-dz for Powerline**, installed via Homebrew (see above).
 
+The result is
+
+![](resources/images/olets-iterm-colors.png)
+
 ## Shell
 
 **zsh** shell + **oh-my-zsh**
