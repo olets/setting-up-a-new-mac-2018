@@ -2,9 +2,9 @@
 
 [TOC]
 
-## Command Line Tools
+- First, follow the [documentation](starting-command-line-tools.md) by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants) to set up Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres,
 
-- Follow the [documentation](starting-command-line-tools.md) by from documentation by [ten1seven](https://github.com/ten1seven) and [greypants](https://github.com/greypants) to set up Xcode tools, Homebrew, ruby with rbenv, git and set up github, node with nvm, yarn, mysql + postgres, and then
+- and then
 
   - after installing postgres, either set it up to automatically run:
     ```
