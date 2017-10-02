@@ -31,6 +31,22 @@
     npm install -g npm-check-updates
     ```
 
+## Homebrew Packages
+
+Some of the packages I use most are
+
+  - [speedtest-cli](https://github.com/sivel/speedtest-cli) - install via Homebrew with `brew install speedtest-cli`
+  - [trash-cli](https://github.com/sindresorhus/trash-cli) - install via Homebrew with `brew install trash-cli`
+  - [tree](http://mama.indstate.edu/users/ice/tree/) - install via Homebrew with `brew install tree
+
+You can install fonts, including some I use in the terminal and in code editors, with Homebrew. This means you'll get any updates to the fonts!
+
+```shell
+brew tap caskroom/fonts
+```
+
+Then you can `brew search your-font-name`. You can see the full list of font in the [fonts cask repo](https://github.com/caskroom/homebrew-fonts).
+
 <!--
 -To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
 
