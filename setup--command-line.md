@@ -17,7 +17,7 @@ This file is part of the larger "Setting up a new Mac" project. [See the **main 
     echo 'alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"' >> ~/.bash_profile
     ```
 
-    (or install zsh, below, and add the alias to your zsh profile by replacing the end of that command with `>> ~/.bash_profile`)
+    (or install zsh, below, and add the alias to your zsh profile by replacing the end of that command with `>> ~/.zrc`)
 
   - Make [Sublime Text's command line tool](http://www.sublimetext.com/docs/3/osx_command_line.html) available:
 
@@ -58,6 +58,18 @@ Then you can `brew search your-font-name`. You can see the full list of font in 
 
 ## Terminal
 
+I use [**iTerm2**](https://www.iterm2.com/).
+
+For a color scheme (`Preferences > Profiles > (profile of choice) > Colors`), I use a [**custom dark theme** you can get here](resources/olets-iterm-color-scheme.itermcolors). Install by downloading the file and then selecting it in
+
+```
+Preferences > Profiles > (profile of choice) > Colors > Color Presets... > Import…
+```
+
+For a font (`Preferences > Profiles > (profile of choice) > Colors`) I use **Incosolata-dz for Powerline**, installed via Homebrew (see above).
+
+## Shell
+
 **zsh** shell + **oh-my-zsh**
 
 Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?id=5690235), and ["Comparison of command shells"](https://en.wikipedia.org/wiki/Comparison_of_command_shells)
@@ -66,16 +78,23 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
 
   1. Install zsh with
 
+     ```shell
      brew install zsh zsh-completions
+     ```
 
   2. Give your shell setup access to zsh
 
+     ```shell
      sudo nano /etc/shells
+     ```
 
      and add `/usr/local/bin/zsh` to the end of the file, and write out.
+
   3. Set zsh as the default shell
 
+     ```shell
      chsh -s /usr/local/bin/zsh
+     ```
 
   4. Open a new terminal, and go through the zsh setup
 
@@ -83,7 +102,44 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
 
 - If you've made any changes to your `~/.bashrc` file, copy over those lines to your `~/.zshrc` file after you switch
 
-### (z)shell setup
+### (oh-my-)zsh setup
+
+  - **oh-my-zsh options** (edit `~/.zshrc`)
+
+    Uncomment `DISABLE_AUTO_TITLE="true"`
+
+  - **oh-my-zsh plugins** (edit `~/.zshrc`)
+
+    ```shell
+    plugins=(git emoji colored-man-pages zsh-history-substring-search thefuck zsh-autosuggestions zsh-syntax-highlighting)
+    ```
+
+  - **Theme**
+
+    I use [**Spaceship**](https://github.com/denysdovhan/spaceship-zsh-theme)
+
+    - Note that Spaceship requires a font that's been patched for Powerline. View the fonts in [their repo](https://github.com/powerline/fonts), and install via Homebrew (see above for instructions on tapping the fonts cask)
+
+    - **Spaceship options**
+
+        ```shell
+        SPACESHIP_GIT_STATUS_INDEX_PREFIX=" [ "
+        SPACESHIP_GIT_STATUS_ADDED='added∆s '
+        SPACESHIP_GIT_STATUS_MODIFIED='unstaged∆s '
+        SPACESHIP_GIT_STATUS_UNTRACKED='untracked∆s '
+        SPACESHIP_GIT_STATUS_STASHED='stashed∆s '
+        SPACESHIP_GIT_STATUS_BEHIND='behind '
+        SPACESHIP_GIT_STATUS_AHEAD='ahead '
+        SPACESHIP_TIME_SHOW=true
+        SPACESHIP_PACKAGE_SHOW=false
+        SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
+        SPACESHIP_RUBY_PREFIX=" "
+        SPACESHIP_NODE_PREFIX=" "
+        SPACESHIP_RUBY_SYMBOL="💎  " # adds an extra space for kerning
+        SPACESHIP_EXEC_TIME_SHOW=false
+        SPACESHIP_BATTERY_DISCHARGING_SYMBOL="🔌 "
+        SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
+        ```
 
   - **Autoload the correct version of node via nvm**
 
@@ -134,7 +190,7 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
     alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 
     # Lists globally installed npm packages
-    alias npmls="npm ls --depth=0 "$@" 2>/dev/null"
+    alias npmls="npm list -g --depth 0"
 
     # Open this file in Sublime
     # (requires exposing Sublim - see above)
@@ -146,62 +202,8 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
 
 - [Add suggestions with **zsh-autosuggestions**](https://github.com/zsh-users/zsh-autosuggestions)
 
-- [Add additional completions with **zsh-completions**](https://github.com/zsh-users/zsh-completions)
-
 - [Add fuzzy searching with **fzf**](https://github.com/junegunn/fzf#using-homebrew-or-linuxbrew)
 
-### oh-my-zsh setup
-
-- **oh-my-zsh options** (edit `~/.zshrc`)
-
-  Uncomment `DISABLE_AUTO_TITLE="true"`
-
-- **oh-my-zsh plugins** (edit `~/.zshrc`)
-
-  ```shell
-  plugins=(git emoji colored-man-pages zsh-history-substring-search thefuck zsh-autosuggestions zsh-syntax-highlighting)
-  ```
-
-- **Theme**
-
-  I use [**Spaceship**](https://github.com/denysdovhan/spaceship-zsh-theme)
-
-  - Note that Spaceship requires a font that's been patched for Powerline. View the fonts in [their repo](https://github.com/powerline/fonts), and install via Homebrew (see above for instructions on tapping the fonts cask)
-
-
-  - **Spaceship options**
-
-      ```shell
-      SPACESHIP_GIT_STATUS_INDEX_PREFIX=" [ "
-      SPACESHIP_GIT_STATUS_ADDED='added∆s '
-      SPACESHIP_GIT_STATUS_MODIFIED='unstaged∆s '
-      SPACESHIP_GIT_STATUS_UNTRACKED='untracked∆s '
-      SPACESHIP_GIT_STATUS_STASHED='stashed∆s '
-      SPACESHIP_GIT_STATUS_BEHIND='behind '
-      SPACESHIP_GIT_STATUS_AHEAD='ahead '
-      SPACESHIP_TIME_SHOW=true
-      SPACESHIP_PACKAGE_SHOW=false
-      SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
-      SPACESHIP_RUBY_PREFIX=" "
-      SPACESHIP_NODE_PREFIX=" "
-      SPACESHIP_RUBY_SYMBOL="💎  " # adds an extra space for kerning
-      SPACESHIP_EXEC_TIME_SHOW=false
-      SPACESHIP_BATTERY_DISCHARGING_SYMBOL="🔌 "
-      SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
-      ```
-
-
-## Terminal
-
-I use [**iTerm2**](https://www.iterm2.com/).
-
-For a color scheme (`Preferences > Profiles > (profile of choice) > Colors`), I use a [**custom dark theme** you can get here](resources/olets-iterm-color-scheme.itermcolors). Install by downloading the file and then selecting it in
-
-```
-Preferences > Profiles > (profile of choice) > Colors > Color Presets... > Import…
-```
-
-For a font (`Preferences > Profiles > (profile of choice) > Colors`) I use **Incosolata-dz for Powerline**, installed via Homebrew (see above).
 
 ## Git
 
@@ -265,7 +267,7 @@ My git aliases (n.b: all aliases go under a single `[alias]` section)
   skip-worktree = !git ls-files -v $(git top-level) | grep '^[sS]'
 ```
 
-As with any time you use aliases, it's worthwhile to whatever steps will help you to not forget the full command. For simple shorthands like `rc` I'll mix it up with `rebase --continue`, to keep that muscle memory strong. (I don't do this for more complex things. I use `pushset` all the time.)
+As with any time you use aliases, it's worthwhile to take whatever steps will help you to not forget the full command. For simple shorthands like `rc` I'll mix it up with `rebase --continue`, to keep that muscle memory strong. (I don't do this for more complex things. I use `pushset` all the time.)
 
 I also use
 
@@ -301,4 +303,6 @@ with a GitHub-friendly default commit message inspired by [thoughtbot's dotfiles
 # 50-character subject line
 # 72-character wrapped longer description
 ```
+
+(Note there are a couple of leading blank lines in that commit message file. As of this writing they don't show up in GitHub's rendered Markdown.)
 
