@@ -124,6 +124,26 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
     set-window-title
     add-zsh-hook precmd set-window-title
     ```
+  - **Some of my most-used aliases**
+
+    ```shell
+    # Copies the contents of the id_rsa.pub file to the clipboard
+    alias ssh-copy='pbcopy < ~/.ssh/id_rsa.pub'
+
+    # Starts the postgres database
+    alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+
+    # Lists globally installed npm packages
+    alias npmls="npm ls --depth=0 "$@" 2>/dev/null"
+
+    # Open this file in Sublime
+    # (requires exposing Sublim - see above)
+    alias zrc="subl ~/.zshrc"
+
+    # Have `man` additionally load gem man pages
+    alias man="gem man -ls"
+    ```
+
 
 ### oh-my-zsh setup
 
