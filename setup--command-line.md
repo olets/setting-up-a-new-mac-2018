@@ -190,3 +190,16 @@ Why? Read [this slide deck with some reasons](https://news.ycombinator.com/item?
       SPACESHIP_BATTERY_FULL_SYMBOL="🔋 "
       ```
 
+
+## Terminal
+
+I use [**iTerm2**](https://www.iterm2.com/).
+
+For a color scheme (`Preferences > Profiles > (profile of choice) > Colors`), I use a [**custom dark theme** you can get here](resources/olets-iterm-color-scheme.itermcolors). Install by downloading the file and then selecting it in
+
+```
+Preferences > Profiles > (profile of choice) > Colors > Color Presets... > Import…
+```
+
+For a font (`Preferences > Profiles > (profile of choice) > Colors`) I use **Incosolata-dz for Powerline**, installed via Homebrew (see above).
+
