@@ -232,7 +232,7 @@ The following aliases are from [@thoughtbot's dotfiles](https://github.com/thoug
   st = status
 ```
 
-My git aliases (n.b: all aliases go under a single `[alias]` section)
+My starting git aliases are (n.b: all aliases go under a single `[alias]` section)
 
 ```shell
 [alias]
@@ -241,7 +241,7 @@ My git aliases (n.b: all aliases go under a single `[alias]` section)
 
   # dotfiles-like
   cob = checkout -b
-  pushforce = pf
+  pushforce = push --force-with-lease
 
   # rebase
   ri = rebase -i
@@ -254,21 +254,17 @@ My git aliases (n.b: all aliases go under a single `[alias]` section)
 
   # continue
   cpc = cherry-pick --continue
-  mc = merge --continue
   rc = rebase --continue
+```
 
-  # helpers
+There's plenty of room to get more complex with git aliases. A good place to start is a command for the first push:
+
+```shell
+[alias]
   # the name of the checked out branch
   current = symbolic-ref --short HEAD
-  # the path to the top of the repo
-  top-level = rev-parse --show-toplevel
-
-  # complex
   # when pushing for the first time: set upstream and push
   pushset = !git push --set-upstream origin $(git current)
-  # keeping track of git-index
-  assume-unchanged = !git ls-files -v $(git top-level) | grep '^[[:lower:]]'
-  skip-worktree = !git ls-files -v $(git top-level) | grep '^[sS]'
 ```
 
 As with any time you use aliases, it's worthwhile to take whatever steps will help you to not forget the full command. For simple shorthands like `rc` I'll mix it up with `rebase --continue`, to keep that muscle memory strong. (I don't do this for more complex things. I use `pushset` all the time.)
