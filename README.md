@@ -42,22 +42,19 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 - [Harvest](https://itunes.apple.com/us/app/harvest/id506189836?mt=12) - time tracking
 	- [my settings](setup--app-prefs.md#harvest)
 - [Mackup](https://github.com/lra/mackup) - backup your app settings, and sync them across multiple computers
-- [MonoSnap](http://monosnap.com/welcome) - take and leave notes on screenshots
 - [Toggl](https://support.toggl.com/toggl-on-my-desktop/) - time tracking. Gives you a nice time sheet with each entry listed separate with its start time, end time, and duration. Nice web light-weight analytics too
 	- [my settings](setup--app-prefs.md#toggl)
 
 ### Office
 - [Fantastical](https://flexibits.com/fantastical) - calendar that does a number of things better than Apple's Calendar: panel with month view and a list upcoming events; Reminders integration; support multiple calendar sets, and auto-switching based on location; meaningful year view; list of all invites you haven't responded to (*paid, free trial*)
-- Gmail: I make a [Fluid](http://fluidapp.com/) desktop app for `https://mail.google.com`
-	- Fluid is free, but pay the $5 and the app will (automatically!) badge with the unread count and you'll have the option of a menubar app
-	- [Gmail icon](resources/Ncrow-Mega-Pack-1-Gmail.icns) (courtesy of ncrow - [website](http://www.iconarchive.com/show/mega-pack-1-icons-by-ncrow/Gmail-icon.html))
-	- [my settings](setup--app-prefs.md#gmail)
+- [Mailplane](https://mailplaneapp.com/) - Gmail client. After years and years using a [Fluid](http://fluidapp.com/) desktop app for `https://mail.google.com`, I've upgraded
 - [Ship](https://www.realartists.com) - GitHub issues tracker/manager (*paid, free trial*)
 - [Slack](https://itunes.apple.com/us/app/slack/id803453959?mt=12) - team chat
 	- turn on [All Unreads](https://get.slack.help/hc/en-us/articles/226410907)
 	- study up on the [keyboard shortcuts](https://get.slack.help/hc/en-us/articles/226410907)
 
 ### Browsers
+
 - Safari
 - [Safari Technology Preview](https://developer.apple.com/safari/technology-preview/)
 - [Chrome](https://www.google.com/chrome/)
@@ -69,56 +66,82 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 
 - Cross-browser
 
-	- [1password](https://agilebits.com/onepassword/extensions) - password management
-	- [AdBlock](https://getadblock.com)
+  - [1password](https://agilebits.com/onepassword/extensions) - password management
+  - [AdBlock](https://getadblock.com)
+  - [Airbnb Price Per Night Correcter](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk)
+  - [aXe](https://www.deque.com/products/axe/) - accessibility tester
+  - [Ghostery](https://www.ghostery.com/) - block trackers
+  - GitHub extensions
+    - [GitHub code folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding) - A userscript that adds code folding to GitHub files
+    - [GitHub custom navigation](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-custom-navigation) - A userscript that allows you to customize GitHub's main navigation bar. I link
+    	- Request PR reviews (`https://github.com/pulls?q=review-requested:username`)
+    	- Assigned issues (`https://github.com/issues/assigned`)
+    	- My gists (`https://gist.github.com/username`)
+    - [GitHub sort content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content) - A userscript that makes some lists & markdown tables sortable
+    - [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
+    	- I use the color `#7AAACF`
+    - [GitHub reveal header](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-reveal-header) - A userscript that reveals the header when hovering near the top of the screen
+    - [GitHub search autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete) - A userscript that adds autocomplete search filters to GitHub
+  - [Stylish](https://en.wikipedia.org/wiki/Stylish) - customize the CSS of any website
 
-	- GitHub extensions
-		- [GitHub code folding](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-code-folding) - A userscript that adds code folding to GitHub files
-		- [GitHub custom navigation](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-custom-navigation) - A userscript that allows you to customize GitHub's main navigation bar. I link
-			- Request PR reviews (`https://github.com/pulls?q=review-requested:username`)
-			- Assigned issues (`https://github.com/issues/assigned`)
-			- My gists (`https://gist.github.com/username`)
-		- [GitHub sort content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content) - A userscript that makes some lists & markdown tables sortable
-		- [GitHub Dark: Script](https://github.com/StylishThemes/GitHub-Dark-Script) via Tampermonkey - gives GitHub a dark theme
-			- I use the color `#7AAACF`
-		- [GitHub reveal header](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-reveal-header) - A userscript that reveals the header when hovering near the top of the screen
-		- [GitHub search autocomplete](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-search-autocomplete) - A userscript that adds autocomplete search filters to GitHub
-
-	
 - Chrome-specific
 
-	- [Adblock for Youtube](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en)
-	- [Better History](https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb?hl=en) - history with deep search; browse history by date
-	- [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en) - cross-browser testing
-	- [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik?hl=en) - extends the Chrome inspector
-	- [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en) - export screenshots of an entire webpage, no matter how long it is
-	- [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality: repo size, file sizes, direct download links for every file, button to copy file contents
-	- [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
-	- [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
-	- [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) - search open tabs' title and urls
-	- [Slinky Elegant](https://chrome.google.com/webstore/detail/slinky-elegant/bmanlajnpdncmhfkiccmbgeocgbncfln) - 
-	- [Spaces](https://chrome.google.com/webstore/detail/spaces/cenkmofngpohdnkbjdpilgpmbiiljjim?hl=en) - name multitab windows, and quickly switch between them based on the name
-	- [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en) - accessibility eval
+  - [Adblock for Youtube](https://chrome.google.com/webstore/detail/adblock-for-youtube/cmedhionkhpnakcndndgjdbohmhepckk?hl=en)
+  - [Better History](https://chrome.google.com/webstore/detail/better-history/obciceimmggglbmelaidpjlmodcebijb?hl=en) - history with deep search; browse history by date
+  - [BrowserStack](https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en) - cross-browser testing
+  - [CSS Gradient Inspector](https://chrome.google.com/webstore/detail/css-gradient-inspector/blklpjonlhpakchaahdnkcjkfmccmdik?hl=en) - extends the Chrome inspector
+  - [DevTools Author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi) - theme the Chrome dev tools window
+  - [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en) - export screenshots of an entire webpage, no matter how long it is
+  - [GitHub Plus](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd?hl=en) - adds missing functionality: repo size, file sizes, direct download links for every file, button to copy file contents
+  - [Harvest](https://chrome.google.com/webstore/detail/harvest-time-tracker/fbpiglieekigmkeebmeohkelfpjjlaia?hl=en) - time tracking
+  - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) - validates and prettifies JSON files
+  - [Pocket New Tab](https://chrome.google.com/webstore/detail/pocket-new-tab/mlnnopicjonfamklpcdfnbcomdlopmof) - trending Pocket articles in empty tabs
+  - [PostureMinder](https://chrome.google.com/webstore/detail/postureminder/dkmkfopiihabelocpelofchappjjnpkm) - non-invasive reminders to sit up straight
+  - [Quick Source Viewer](https://chrome.google.com/webstore/detail/quick-source-viewer/cfmcghennfbpmhemnnfjhkdmnbidpanb?hl=en) - a more full-featured alternative to Chrome's `View > Developer > View Source`
+  - [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en) - search open tabs' title and urls
+  - [Rearrange Tabs](https://chrome.google.com/webstore/detail/rearrange-tabs/ccnnhhnmpoffieppjjkhdakcoejcpbga) - add keyboard shortcuts for rearranging tabs
+  - [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj) - one-click button to add the current page to Pocket
+  - [Slinky Elegant](https://chrome.google.com/webstore/detail/slinky-elegant/bmanlajnpdncmhfkiccmbgeocgbncfln) - dark theme for Chrome
+  - [Spaces](https://chrome.google.com/webstore/detail/spaces/cenkmofngpohdnkbjdpilgpmbiiljjim?hl=en) - name multitab windows, and quickly switch between them based on the name
+  - [Tab Position Options](https://chrome.google.com/webstore/detail/tab-position-options/fjccjnfkdkdmjohojoggodkigkjkkjhl) - control the position of new tabs (I use it open new tabs directly the right of the current tab)
+  - [Tab Snooze](http://www.tabsnooze.com/) - closes tabs and opens them at a different time or on a different day
+  - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) - suspends tabs you aren't using, greatly reducing Chrome's memory draw
+  - [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en) - accessibility eval
+  - [View Image Properties](https://chrome.google.com/webstore/detail/view-image-info-propertie/jldjjifbpipdmligefcogandjojpdagn) - adds a contextual menu item with image dimensions, size, and type
 
 
 ### Developer apps
 - [Atom](https://atom.io) - text editor (I find Sublime Text is much faster and more don't-leave-the-home-row friendly, but Atom's popular enough that it's probably worth being familiar with)
-	- [settings' syncing instructions](https://pawelgrzybek.com/sync-atom-between-multiple-devices/)
-- [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with great search-and-replace and great multi-file search
-	- see also the [BareBones GREP cheatsheet](http://www.anybrowser.org/bbedit/grep.html)
-- [GitHub Desktop](https://desktop.github.com) - I never actually use this, prefering SourceTree (linked below). On my home computer SourceTree periodically loses `push` permissions and the only fix is to open and close GitHub Desktop, so I keep it around. I think it also set me up with ssh keys on initial launch?
-- [MacDown](http://macdown.uranusjr.com) - markdown editor
-- [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - servers (*paid, free trial*)
-- [SequelPro](http://www.sequelpro.com/)
-	- The icon has a messy background that looks pretty bad in the application switcher. [Here's a fix](resources/sequel pro icon fix.icns)
-- Image optimizing tools:  
-	- [ImageAlpha](https://pngmini.com) - optimize pngs that have transparency
-	- [ImageOptim](https://imageoptim.com/mac) - optimize imagesons folder):
-- **Simulator** - an iOS emulator (#facepalm@productnameteam) that comes with XCode (see below)
-	- If Spotlight isn't finding it, or just for general ease of access in Finder, make an alias in the Applications folder:
+  - [settings' syncing instructions](https://pawelgrzybek.com/sync-atom-between-multiple-devices/)
 
-			ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications
-- [SourceTree](https://www.sourcetreeapp.com) - git and hg client
+- [BBEdit](http://www.barebones.com/bbedit) (*paid, free trial*) or [TextWrangler](http://www.barebones.com/products/TextWrangler/) (*free*) - text editor with great search-and-replace and great multi-file search
+  - see also the [BareBones GREP cheatsheet](http://www.anybrowser.org/bbedit/grep.html)
+
+- [Fork](https://git-fork.com/) - Git client. I keep both Fork and Sourcetree close to hand. Fork has a great "file history" function,  a view for seeing the entire file tree at any commit, and lets you hide any branch from the tree view.
+
+- [GitHub Desktop](https://desktop.github.com) - I never actually use this, prefering SourceTree (linked below). On my home computer SourceTree periodically loses `push` permissions and the only fix is to open and close GitHub Desktop, so I keep it around. I think it also set me up with ssh keys on initial launch?
+
+- Image optimizing tools:  
+
+  - [ImageAlpha](https://pngmini.com) - optimize pngs that have transparency
+  - [ImageOptim](https://imageoptim.com/mac) - optimize images
+
+- [MacDown](http://macdown.uranusjr.com) - markdown editor
+
+- [MAMP Pro](https://www.mamp.info/en/mamp-pro/) - servers (*paid, free trial*)
+
+- [SequelPro](http://www.sequelpro.com/) - database manager
+  - The icon has a messy background that looks pretty bad in the application switcher. [Here's a fix](resources/sequel pro icon fix.icns)
+
+- **Simulator** - an iOS simulator that comes with XCode (see below)
+  - If Spotlight isn't finding it, or just for general ease of access in Finder, make an alias in the Applications folder:
+
+     ```shell
+     ln -s /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications
+     ```
+
+- [SourceTree](https://www.sourcetreeapp.com) - Git and Mercurial client. I keep both Sourcetree and Fork close to hand. Sourcetree has a wonderful option of showing the command that any given UI action triggered, making the app a great tool for helping beginners learn Git.
+
 - [Sublime Text](https://www.sublimetext.com/) - text editor
 	- If you've already registered but lost your license, [get it emailed to you](https://www.sublimetext.com/retrieve_key)
 	- [settings' syncing instructions](https://packagecontrol.io/docs/syncing)
@@ -159,8 +182,10 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- And I turn on scrolling past the end of documents, turn off word wrap by default, increase default font size and line spacing, use a large solid caret, highlight the current line, and more. You can check out [my preferences file](Preferences.sublime-settings) (n.b: the "match_brackets" preferences are to allow BracketHighlighter to do the highlighting, and "theme" preferences are Boxy customization)
 
 - [Virtual Box](https://www.virtualbox.org/wiki/VirtualBox)
-	- [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+  - [Windows IE/Edge VMs](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+
 - [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+
 - [XScope](http://xscopeapp.com) - tools for measuring and inspecting stuff on the screen (*paid, free trial*)
 
 ### Additional apps
@@ -188,7 +213,7 @@ My setup for a fresh macOS Sierra machine, including my go-to front-end develope
 	- [NotificationClear](https://github.com/w0lfschild/NotificationClear) - adds a button to the Notification Center that clears all notifications
 	- SpotlightSIMBL - add plugins to Spotlight. Requires [Flashlight](https://github.com/nate-parrott/Flashlight)
 	- [Afloat](https://github.com/w0lfschild/Afloat) currently crashes my computer
-- [Muzzle](https://muzzleapp.com/) - turns on Do Not Disturb when screensharingm
+- [Muzzle](https://muzzleapp.com/) - turns on Do Not Disturb when screensharing
 - [Noizio](http://noiz.io/) - ambient sounds with custom, shareable mixes
 	- here's [the starting point](resources/Hillsborough Rd.nzm) I made for messing around with while I work
 - [qlmarkdown](https://github.com/toland/qlmarkdown) - Quicklook plugin to display Markdown
