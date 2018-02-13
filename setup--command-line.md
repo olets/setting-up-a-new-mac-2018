@@ -47,14 +47,67 @@ brew tap caskroom/fonts
 
 Then you can `brew search your-font-name`. You can see the full list of font in the [fonts cask repo](https://github.com/caskroom/homebrew-fonts).
 
-<!--
--To load `.bashrc` and `.profile` in every new terminal, add them to the `.bash_profile`. Listing this last because I've read you "usually" want it at the end of your `.bash_profile`… but that's all I know about that :)
+```shell
+$ brew cask list
+betterzipql           font-amiri            qlcolorcode           qlmarkdown            quicklook-csv         touch-bar-simulator   xquartz
+caprine               hyper                 qlimagesize           qlstephen             quicklook-json        vienna
+```
 
-	​```
-	echo 'source ~/.bashrc' >> ~/.bash_profile
-	echo 'source ~/.profile' >> ~/.bash_profile
-	​```
--->
+```shell
+$ brew leaves
+ansiweather
+autoenv
+awscli
+boost
+checkbashisms
+josegonzalez/php/composer
+coreutils
+dash
+emacs
+exercism
+ffmpeg
+fish
+fzf
+git
+git-cola
+highlight
+hub
+imagemagick
+mackup
+mdv
+micro
+mopidy/mopidy/mopidy
+mysql
+node
+pandoc
+josegonzalez/php/php54-mcrypt
+josegonzalez/php/php56-mcrypt
+josegonzalez/php/php70-mcrypt
+josegonzalez/php/php71-mcrypt
+postgresql
+potrace
+qt@5.5
+rbenv
+sassc
+shairport-sync
+shellcheck
+speedtest-cli
+sphinx-doc
+terminal-notifier
+thefuck
+trash
+tree
+watchman
+yarn
+youtube-dl
+zplug
+zsh
+zsh-completions
+```
+
+
+
+
 
 ## Terminal
 
