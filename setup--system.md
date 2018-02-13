@@ -14,16 +14,16 @@ and change the double-click behavior
 
 and add spacers to the app side of the dock:  
 
-	```
+	​```
 	defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	```
-	
+	​```
+
 (you can also add spacers to the documents side of the dock… but why?)
-	
-	```
+​	
+	​```
 	defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	```
-	
+	​```
+
 and I make some Dock tweaks with TinkerTool ([see below](#tinkertool)). 	
 Final result:
 
@@ -135,5 +135,21 @@ Final result:
 
 - toolbar and window bars: show the path bar and status bar, and add to the toolbar apps I commonly want to drag and drop things onto
 
-	<img src="resources/images/finder window.png" width="400px"/>
-	
+  <img src="resources/images/finder window.png" width="400px"/>
+
+
+## Further customization
+
+- Save screenshots to a special folder in the downloads folder
+
+  ```shell
+  mkdir ~/Downloads/Screenshots\ ƒ && defaults write com.apple.screencapture location /Users/home/Downloads/Screenshots\ ƒ
+  ```
+
+- I make an alias for the default Dictionary app called "Thesaurus" so that I can open Dictionary in Spotlight by typing Thesaurus:
+
+  ```shell
+  ln /Applications/Dictionary.app /Applications/Thesaurus
+  ```
+
+  ​
