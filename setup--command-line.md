@@ -37,7 +37,7 @@ Some of the packages I use most are
 
   - [speedtest-cli](https://github.com/sivel/speedtest-cli) - install via Homebrew with `brew install speedtest-cli`
   - [trash-cli](https://github.com/sindresorhus/trash-cli) - install via Homebrew with `brew install trash-cli`
-  - [tree](http://mama.indstate.edu/users/ice/tree/) - install via Homebrew with `brew install tree
+  - [tree](http://mama.indstate.edu/users/ice/tree/) - install via Homebrew with `brew install tree`
 
 You can install fonts, including some I use in the terminal and in code editors, with Homebrew. This means you'll get any updates to the fonts!
 
@@ -293,7 +293,7 @@ My starting git aliases are (n.b: all aliases go under a single `[alias]` sectio
   pr = pull-request
 
   # dotfiles-like
-  cob = checkout -b
+  cb = checkout -b
   pushforce = push --force-with-lease
 
   # rebase
