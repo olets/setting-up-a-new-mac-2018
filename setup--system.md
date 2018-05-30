@@ -12,19 +12,19 @@ and change the double-click behavior
 
 <img src="resources/images/dock preferences.png" width="400px"/>
 
-and add spacers to the app side of the dock:  
+and add spacers to the app side of the dock:
 
-	​```
-	defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	​```
+```
+defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
+```
 
 (you can also add spacers to the documents side of the dock… but why?)
-​	
-	​```
-	defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
-	​```
 
-and I make some Dock tweaks with TinkerTool ([see below](#tinkertool)). 	
+```
+defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'; killall Dock
+```
+
+and I make some Dock tweaks with TinkerTool ([see below](#tinkertool)).
 Final result:
 
 <img src="resources/images/dock final.png" width="50px"/>
@@ -35,34 +35,34 @@ Final result:
 
 	<img src="resources/images/appearance.png" width="400px"/>
 
-- **desktop & screen saver**:  
+- **desktop & screen saver**:
 	- plain background
 
 		<img src="resources/images/desktop.png" width="400px"/>
 		<img src="resources/images/screensavers.png" width="400px"/>
-		
+
 	- screensaver hotcorner
 
 		<img src="resources/images/screensaver hotcorners.png" width="400px"/>
-		
+
 	- [ported afterdark screen savers](resources/ported-afterdark-screen-savers.zip)
 		- final frontier:
 
 			<img src="resources/images/screensavers - final frontier.png" width="200px"/>
-		
+
 		- flying toasters:
 
 			<img src="resources/images/screensavers - flying toasters.png" width="200px"/>
-		
+
 		- moire:
 
 			<img src="resources/images/screensavers - moire 1.png" width="200px"/>
 			<img src="resources/images/screensavers - moire 2.png" width="200px"/>
-		
+
 		- mowing man (*paid* - [registration link](http://en.infinisys.co.jp/download/index.shtml)):
-		
-			<img src="resources/images/screensavers- mowing man.png" width="200px"/>  
-		
+
+			<img src="resources/images/screensavers- mowing man.png" width="200px"/>
+
 		- starry night (*paid*):
 
 			<img src="resources/images/screensavers- starry night.png" width="200px"/>
@@ -74,7 +74,7 @@ Final result:
 - notifications:
 
 	<img src="resources/images/notifications.png" width="400px"/>
-	
+
 	And as you use the computer update the app preferences here, unchecking "Show in Notification Center" when possible so that Notifation Center doesn't fill up with unnecessary clutter.
 
 - displays:
@@ -107,15 +107,21 @@ Final result:
 
 - internet accounts: add your accounts!
 
+- Save screenshots to a special folder in the downloads folder
+
+    ```shell
+    defaults write com.apple.screencapture location /Users/home/Documents
+    ```
+
 ### Finder
 
 - prefs:
 
 	<img src="resources/images/finder prefs- general.png" width="200px"/>
 	<img src="resources/images/finder prefs- sidebar.png" width="200px"/>
-	<img src="resources/images/finder prefs- advanced.png" width="200px"/>  
+	<img src="resources/images/finder prefs- advanced.png" width="200px"/>
 
-- [folder icons](resources/folder-icons-for-dock.zip):  
+- [folder icons](resources/folder-icons-for-dock.zip):
 
 	<img src="resources/images/dock icons.png" width="100px"/>
 
@@ -124,11 +130,11 @@ Final result:
 	- Default:
 
 		<img src="resources/images/finder view option defaults.png" width="200px"/>
-	
+
 	- Downloads:
 
 		<img src="resources/images/downloads folder view options.png" width="200px"/>
-	
+
 	- Applications:
 
 		<img src="resources/images/applications folder view options.png" width="200px"/>
@@ -140,16 +146,8 @@ Final result:
 
 ## Further customization
 
-- Save screenshots to a special folder in the downloads folder
-
-  ```shell
-  mkdir ~/Downloads/Screenshots\ ƒ && defaults write com.apple.screencapture location /Users/home/Downloads/Screenshots\ ƒ
-  ```
-
 - I make an alias for the default Dictionary app called "Thesaurus" so that I can open Dictionary in Spotlight by typing Thesaurus:
 
-  ```shell
-  ln /Applications/Dictionary.app /Applications/Thesaurus
-  ```
-
-  ​
+```shell
+ln /Applications/Dictionary.app /Applications/Thesaurus
+```

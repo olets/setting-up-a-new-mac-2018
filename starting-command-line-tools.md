@@ -58,7 +58,7 @@ brew install yarn
 
 Add <code>export PATH="$PATH:`yarn global bin`"</code> to your profile (this may be in your .profile, .bashrc, .zshrc, etc.)
 
-### mysql and postgres databases 
+### mysql and postgres databases
 
 Almost every project uses one of these. Might as well set them up now. Make sure to read the post-install instructions for both to get a username/pass).
 
